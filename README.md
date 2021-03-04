@@ -1,3 +1,4 @@
+# THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING UNTIL PROTOS ARE IN!
 # Arisutea Keyboard PCB with Modifications and More Modifications
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C and shift some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. 
 
