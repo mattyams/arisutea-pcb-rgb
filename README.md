@@ -29,7 +29,7 @@ Disclaimer: Use these files at your own risk.
 ![Arisutea-top](https://i.imgur.com/qM8Vc2F.png)
 
 ## Gerber Files
-Download the gerber and BOM files under [releases](https://github.com/mattyams/arisutea/releases).
+Download the gerber and BOM files under [releases](https://github.com/mattyams/arisutea-pcb/releases).
 
 ## Assembly
 For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.
