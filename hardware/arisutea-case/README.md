@@ -1,5 +1,7 @@
 # Acrylic Case for Arisutea
-アリステア Acrylic Case design formatted ready for Ponoko with the kerf of the switch cutout set to 0.15mm. Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under arisutea-case.  The case just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. These files are a fork from FateNozomi's Arisu case which can be found [HERE](https://github.com/FateNozomi/arisu-case)
+アリステア Acrylic Case design formatted ready for Ponoko with the kerf of the switch cutout set to 0.15mm. Case files are updated to reflect changes to the full backspace on switch 59 and have the Arisutea logo engraved on the case. The I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There are 2 versions of the low profile case. One is just the normal lopro case and the other is if you opt to use matte colors from Ponoko as only one side of the acrylic is matte. This flips the bottom of the case and the long "step up" pieces on the vertical axis so that the actual bottom of the case will be matte as well when assembling the case. 
+
+These files are a fork from FateNozomi's Arisu case which can be found [HERE](https://github.com/FateNozomi/arisu-case)
 
 ## Disclaimer: Use these files at your own risk. 
 
@@ -9,6 +11,7 @@
 ## Case Pieces
 
 - Low Profile Case (arisutea_lopro_case_P2_ponoko_backspace_comp.eps)
+- Low Profile Case Matte Colors (Optional) (arisutea_lopro_case_P2_ponoko_matte_backspace_comp.eps)
 - High Profile Layer (Optional) (arisutea_hipro_layer_P2_ponoko.eps)
 
 ## Fabrication

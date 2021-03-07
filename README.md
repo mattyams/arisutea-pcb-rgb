@@ -1,4 +1,5 @@
 # THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING UNTIL PROTOS HAVE BEEN ORDERED AND TESTED!
+[x]PCBs ordered 03/07/21
 # Arisutea Keyboard PCB with More Modifications
 ## Disclaimer: Use these files at your own risk.
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
@@ -17,7 +18,7 @@ Key modifications to the PCB:
 
 # Case Files for Ponoko
 
-Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato.
+Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato.
 
 ![Ponoko-case-1](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/20210306_192729.jpg)
 ![Ponoko-case-2](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/20210306_195154.jpg)
@@ -26,8 +27,7 @@ Case files are updated to reflect changes to the full backspace on switch 59 and
 
 # FR4 Plates and Case
 
-Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and I have no clue if it will work on previous revisions. These are en route as we speak from JLCPCB and will update further once they have arrived.  
-
+Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and I have no clue if it will work on previous revisions. These are en route as I type this (3/7/2021) from JLCPCB and will update on their fitment and parts needed once they have arrived.
 
 ## Exceprts from original designer, FateNozomi:
 
