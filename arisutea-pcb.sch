@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arisutea-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -6,7 +7,7 @@ encoding utf-8
 Sheet 1 2
 Title "Arisutea"
 Date ""
-Rev "1.0"
+Rev "0.3"
 Comp "3x6 Designs"
 Comment1 ""
 Comment2 ""
@@ -1383,6 +1384,7 @@ F 0 "D67" V 2447 4278 50  0000 L CNN
 F 1 "LED" V 2538 4278 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 2500 4200 50  0001 C CNN
 F 3 "~" H 2500 4200 50  0001 C CNN
+F 4 "C84259" V 2500 4200 50  0001 C CNN "LCSC"
 	1    2500 4200
 	0    1    1    0   
 $EndComp
@@ -1392,9 +1394,9 @@ U 1 1 6045035B
 P 2500 4500
 F 0 "R7" V 2400 4500 50  0000 C CNN
 F 1 "1K" V 2500 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 4500 50  0001 C CNN
 F 3 "~" H 2500 4500 50  0001 C CNN
-F 4 "C17561" H 2500 4500 50  0001 C CNN "LCSC"
+F 4 "C17513" H 2500 4500 50  0001 C CNN "LCSC"
 	1    2500 4500
 	-1   0    0    1   
 $EndComp

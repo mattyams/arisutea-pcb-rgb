@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:arisutea-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -6,7 +7,7 @@ encoding utf-8
 Sheet 2 2
 Title "Arisutea Key Switch Matrix"
 Date ""
-Rev "1.0"
+Rev "0.3"
 Comp "3x6 Designs"
 Comment1 ""
 Comment2 ""
