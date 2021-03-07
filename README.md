@@ -1,5 +1,10 @@
 # THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING UNTIL PROTOS HAVE BEEN ORDERED AND TESTED!
-[x]PCBs ordered 03/07/21
+- [x] Acrylic Case assembled and tested on original design 03/06/21
+- [x] PCBs ordered 03/07/21
+- [x] Second Acrylic Case ordered 03/07/21
+- [ ] Assemble FR4 Case to original design
+- [ ] Assemble Arisutea PCB once received
+- [ ] Assemble Acrylic Case to Arisutea design
 # Arisutea Keyboard PCB with More Modifications
 ## Disclaimer: Use these files at your own risk.
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
