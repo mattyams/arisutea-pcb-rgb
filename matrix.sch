@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:arisutea-pcb-r1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693

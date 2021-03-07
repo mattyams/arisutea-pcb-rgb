@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:arisutea-pcb-r1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1064,8 +1063,8 @@ L Mechanical:MountingHole H1
 U 1 1 5C583EFC
 P 9800 2900
 F 0 "H1" H 9900 2946 50  0000 L CNN
-F 1 "MountingHole" H 9900 2855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 2900 50  0001 C CNN
+F 1 "ThroughHole" H 9900 2855 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 2900 50  0001 C CNN
 F 3 "~" H 9800 2900 50  0001 C CNN
 	1    9800 2900
 	1    0    0    -1  
@@ -1075,8 +1074,8 @@ L Mechanical:MountingHole H2
 U 1 1 5C584371
 P 9800 3100
 F 0 "H2" H 9900 3146 50  0000 L CNN
-F 1 "MountingHole" H 9900 3055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3100 50  0001 C CNN
+F 1 "ThroughHole" H 9900 3055 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3100 50  0001 C CNN
 F 3 "~" H 9800 3100 50  0001 C CNN
 	1    9800 3100
 	1    0    0    -1  
@@ -1086,8 +1085,8 @@ L Mechanical:MountingHole H3
 U 1 1 5C59C18D
 P 9800 3300
 F 0 "H3" H 9900 3346 50  0000 L CNN
-F 1 "MountingHole" H 9900 3255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3300 50  0001 C CNN
+F 1 "ThroughHole" H 9900 3255 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3300 50  0001 C CNN
 F 3 "~" H 9800 3300 50  0001 C CNN
 	1    9800 3300
 	1    0    0    -1  
@@ -1097,8 +1096,8 @@ L Mechanical:MountingHole H4
 U 1 1 5C59C1E9
 P 9800 3500
 F 0 "H4" H 9900 3546 50  0000 L CNN
-F 1 "MountingHole" H 9900 3455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3500 50  0001 C CNN
+F 1 "ThroughHole" H 9900 3455 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3500 50  0001 C CNN
 F 3 "~" H 9800 3500 50  0001 C CNN
 	1    9800 3500
 	1    0    0    -1  
@@ -1108,8 +1107,8 @@ L Mechanical:MountingHole H5
 U 1 1 5C59C249
 P 9800 3700
 F 0 "H5" H 9900 3746 50  0000 L CNN
-F 1 "MountingHole" H 9900 3655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3700 50  0001 C CNN
+F 1 "ThroughHole" H 9900 3655 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3700 50  0001 C CNN
 F 3 "~" H 9800 3700 50  0001 C CNN
 	1    9800 3700
 	1    0    0    -1  
@@ -1119,8 +1118,8 @@ L Mechanical:MountingHole H6
 U 1 1 5C59C2A7
 P 9800 3900
 F 0 "H6" H 9900 3946 50  0000 L CNN
-F 1 "MountingHole" H 9900 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 3900 50  0001 C CNN
+F 1 "ThroughHole" H 9900 3855 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3900 50  0001 C CNN
 F 3 "~" H 9800 3900 50  0001 C CNN
 	1    9800 3900
 	1    0    0    -1  
@@ -1130,8 +1129,8 @@ L Mechanical:MountingHole H7
 U 1 1 5C59C305
 P 9800 4100
 F 0 "H7" H 9900 4146 50  0000 L CNN
-F 1 "MountingHole" H 9900 4055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 4100 50  0001 C CNN
+F 1 "ThroughHole" H 9900 4055 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 4100 50  0001 C CNN
 F 3 "~" H 9800 4100 50  0001 C CNN
 	1    9800 4100
 	1    0    0    -1  
@@ -1141,8 +1140,8 @@ L Mechanical:MountingHole H8
 U 1 1 5C59C367
 P 9800 4300
 F 0 "H8" H 9900 4346 50  0000 L CNN
-F 1 "MountingHole" H 9900 4255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9800 4300 50  0001 C CNN
+F 1 "ThroughHole" H 9900 4255 50  0000 L CNN
+F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 4300 50  0001 C CNN
 F 3 "~" H 9800 4300 50  0001 C CNN
 	1    9800 4300
 	1    0    0    -1  
@@ -1345,13 +1344,13 @@ Wire Wire Line
 Wire Wire Line
 	1750 5250 1750 6600
 Wire Wire Line
-	3000 4950 1650 4950
+	3000 4950 2500 4950
 $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO1
 U 1 1 6042E29E
 P 9900 6150
-F 0 "LOGO1" H 9975 6615 50  0000 C CNN
-F 1 "arisutea_logo" H 9975 6524 50  0000 C CNN
+F 0 "LOGO1" H 9900 6500 50  0000 C CNN
+F 1 "arisutea_logo" H 9975 6524 50  0001 C CNN
 F 2 "arisutea:arisutea_logo" H 9900 6500 50  0001 C CNN
 F 3 "" H 9900 6500 50  0001 C CNN
 	1    9900 6150
@@ -1376,6 +1375,47 @@ F 4 "C89371" H 2150 2900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Connection ~ 1050 6450
+$Comp
+L Device:LED D67
+U 1 1 6044E1B4
+P 2500 4200
+F 0 "D67" V 2447 4278 50  0000 L CNN
+F 1 "LED" V 2538 4278 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2500 4200 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6045035B
+P 2500 4500
+F 0 "R7" V 2400 4500 50  0000 C CNN
+F 1 "1K" V 2500 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4500 50  0001 C CNN
+F 3 "~" H 2500 4500 50  0001 C CNN
+F 4 "C17561" H 2500 4500 50  0001 C CNN "LCSC"
+	1    2500 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4650 2500 4950
+Connection ~ 2500 4950
+Wire Wire Line
+	2500 4950 1650 4950
+$Comp
+L power:GND #PWR02
+U 1 1 60459B82
+P 2800 4050
+F 0 "#PWR02" H 2800 3800 50  0001 C CNN
+F 1 "GND" H 2805 3877 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4050 2800 4050
 Wire Bus Line
 	6200 2700 6200 3150
 Wire Bus Line
