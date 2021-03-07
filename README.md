@@ -12,6 +12,9 @@ Key modifications to the PCB:
 - USB-C ESD rework.
 - Power LED...just because.
 
+![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom-3d.png)
+![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top-3d.png)
+
 # Case Files for Ponoko
 
 Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato.
@@ -25,7 +28,8 @@ Case files are updated to reflect changes to the full backspace on switch 59 and
 
 Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and I have no clue if it will work on previous revisions. These are en route as we speak from JLCPCB and will update further once they have arrived.  
 
-### Exceprts from original designer, FateNozomi:
+
+## Exceprts from original designer, FateNozomi:
 
 Key differences:
 - Removed the extra [B] key on the right half and shifted the [NM,.?] row to the left by 0.25U.
@@ -38,9 +42,6 @@ Lyn's EM7 and TGR Alice uses the home row as the center point to vertically alig
 Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
 
 Disclaimer: Use these files at your own risk.
-
-![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom-3d.png)
-![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top-3d.png)
 
 ## Gerber Files
 Download the gerber and BOM files under [releases](https://github.com/mattyams/arisutea-pcb/releases).
