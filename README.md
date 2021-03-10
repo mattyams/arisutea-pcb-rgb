@@ -28,17 +28,17 @@ Key modifications to the PCB:
 
 Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato.
 
-![Ponoko-case-1](https://imgur.com/FcGVhWI)
-![Ponoko-case-2](https://imgur.com/hdUOVdj)
-![Ponoko-case-3](https://imgur.com/IXYp1Ry)
-![Ponoko-case-4](https://imgur.com/iDQcOTm)
+![Ponoko-case-1](https://imgur.com/FcGVhWI.jpg)
+![Ponoko-case-2](https://imgur.com/hdUOVdj.jpg)
+![Ponoko-case-3](https://imgur.com/IXYp1Ry.jpg)
+![Ponoko-case-4](https://imgur.com/iDQcOTm.jpg)
 
 # FR4 Plates and Case
 
 Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and I have no clue if it will work on previous revisions. These have arrived and are being tested now.
 
-![FR4-Plates-1](https://imgur.com/DepO5uV)
-![FR4-Plates-2](https://imgur.com/oCfGKm7)
+![FR4-Plates-1](https://imgur.com/DepO5uV.jpg)
+![FR4-Plates-2](https://imgur.com/oCfGKm7.jpg)
 ## Exceprts from original designer, FateNozomi:
 
 Key differences:
