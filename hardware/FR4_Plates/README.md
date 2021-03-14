@@ -1,7 +1,19 @@
 # FR4 Plates for Arisutea
-アリステア FR4 PCB Plates design formatted ready for JLCPCB. Plate files are updated to reflect changes to the full backspace on switch 59.  These are en route as I type this (3/7/2021) from JLCPCB and will update on their fitment and parts needed once they have arrived. For the fitment, I will be using the PCB design by CorruptedJef and robotictomato to test the plate fitment and go from there.
+アリステア FR4 PCB Plates design formatted ready for JLCPCB. Plate files are updated to reflect changes to the full backspace on switch 59. The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB.
 
 ## Disclaimer: Use these files at your own risk. 
 
-![FR4-plate-kicad-1](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-plate-top.png)
-![FR4-plate-kicad-2](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-plate-bottom.png)
+#### Assembly Materials
+These are just what I used, obviously you can sub whatever you want. But this worked best for my assembly.
+
+Material | Quantity
+------------ | -------------
+M2 * 5mm Screws | 8
+[M2 8mm Standoffs](https://smile.amazon.com/gp/product/B07WYCZ662/) | 16
+
+![FR4-Plates-1](https://imgur.com/oCfGKm7.jpg)
+![FR4-Plates-2](https://imgur.com/YgkBZqZ.jpg)
+![FR4-Plates-3](https://imgur.com/DWLulrx.jpg)
+![FR4-Plates-4](https://imgur.com/sJeoB8D.jpg)
+![FR4-Plates-5](https://imgur.com/UTHojd2.jpg)
+![FR4-Plates-6](https://imgur.com/UeV90nA.jpg)
