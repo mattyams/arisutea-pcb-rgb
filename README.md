@@ -3,7 +3,7 @@
 - [x] PCBs ordered 03/07/21
 - [x] Second Acrylic Case ordered 03/07/21
 - [X] Assemble FR4 Case to original design 03/14/21
-- [ ] Assemble Arisutea PCB once received
+- [X] Assemble Arisutea PCB once received 03/16/21
 - [ ] Assemble Acrylic Case to Arisutea design
 - [ ] Assemble FR4 Case to Arisutea design
 - [ ] Edit QMK firmware for Arisutea design
@@ -24,7 +24,10 @@ Key modifications to the PCB:
 
 ![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom-3d.png)
 ![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top-3d.png)
+![Arisutea-assembled](https://i.imgur.com/b7rdr05.jpg)
 
+Just messing around with different switches.
+![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
 # Case Files for Ponoko
 
 Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There is now a "boxed" version of the case that I have made that is designed to work with some wrist rests that do not have the ortho shape. I have not tested this design fully but will be ordering the case soon from Ponoko.
