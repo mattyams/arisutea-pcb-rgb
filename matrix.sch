@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 2
 Title "Arisutea Key Switch Matrix"
 Date ""
-Rev "0.3"
+Rev "0.4"
 Comp "3x6 Designs"
 Comment1 ""
 Comment2 ""

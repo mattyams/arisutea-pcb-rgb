@@ -18,7 +18,6 @@ Key modifications to the PCB:
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
-- Power LED...just because.
 - Updated JSON layout file for this particular keyboard.
 - Original mounting holes have been widened to allow for M2 standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
 

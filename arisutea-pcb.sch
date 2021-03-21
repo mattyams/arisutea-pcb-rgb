@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 2
 Title "Arisutea"
 Date ""
-Rev "0.3"
+Rev "0.4"
 Comp "3x6 Designs"
 Comment1 ""
 Comment2 ""
@@ -1344,8 +1344,6 @@ Wire Wire Line
 	1750 5250 1650 5250
 Wire Wire Line
 	1750 5250 1750 6600
-Wire Wire Line
-	3000 4950 2500 4950
 $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO1
 U 1 1 6042E29E
@@ -1369,55 +1367,13 @@ U 1 1 5C4BFA85
 P 2150 2900
 F 0 "Y1" H 2100 3250 50  0000 L CNN
 F 1 "Crystal_GND24" H 1900 3150 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering" H 2150 2900 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering" H 2150 2900 50  0001 C CNN
 F 3 "~" H 2150 2900 50  0001 C CNN
 F 4 "C89371" H 2150 2900 50  0001 C CNN "LCSC"
 	1    2150 2900
 	1    0    0    -1  
 $EndComp
 Connection ~ 1050 6450
-$Comp
-L Device:LED LED1
-U 1 1 6044E1B4
-P 2500 4200
-F 0 "LED1" V 2447 4278 50  0000 L CNN
-F 1 "LED" V 2538 4278 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 4200 50  0001 C CNN
-F 3 "~" H 2500 4200 50  0001 C CNN
-F 4 "C84259" V 2500 4200 50  0001 C CNN "LCSC"
-	1    2500 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 6045035B
-P 2500 4500
-F 0 "R7" V 2400 4500 50  0000 C CNN
-F 1 "1K" V 2500 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 4500 50  0001 C CNN
-F 3 "~" H 2500 4500 50  0001 C CNN
-F 4 "C17513" H 2500 4500 50  0001 C CNN "LCSC"
-	1    2500 4500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2500 4650 2500 4950
-Connection ~ 2500 4950
-Wire Wire Line
-	2500 4950 1650 4950
-$Comp
-L power:GND #PWR02
-U 1 1 60459B82
-P 2800 4050
-F 0 "#PWR02" H 2800 3800 50  0001 C CNN
-F 1 "GND" H 2805 3877 50  0000 C CNN
-F 2 "" H 2800 4050 50  0001 C CNN
-F 3 "" H 2800 4050 50  0001 C CNN
-	1    2800 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 4050 2800 4050
 Wire Bus Line
 	6200 2700 6200 3150
 Wire Bus Line
@@ -1428,4 +1384,6 @@ Wire Bus Line
 	7500 2650 7500 5800
 Wire Bus Line
 	7200 2750 7200 5800
+Wire Wire Line
+	1650 4950 3000 4950
 $EndSCHEMATC
