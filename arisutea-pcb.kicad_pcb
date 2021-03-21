@@ -27,7 +27,7 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user)
+    (42 Eco1.User user hide)
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
@@ -4256,7 +4256,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.50u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9E82)
-    (at 322.199 57.785)
+    (at 322.136878 57.776625)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u")
     (path /5C4EF302/5C6656F5)
@@ -4822,7 +4822,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9D48)
-    (at 265.557 37.338)
+    (at 265.583272 37.208803)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C6567C5)
@@ -5008,7 +5008,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9CE2)
-    (at 258.699 58.166 12)
+    (at 258.84076 58.115293 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C650AAD)
@@ -5070,7 +5070,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 60317BDC)
-    (at 245.491 41.402 12)
+    (at 245.478556 41.485038 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C650A9E)
@@ -5132,7 +5132,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9C9E)
-    (at 251.968 117.983 12)
+    (at 251.975669 118.052781 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64BD5C)
@@ -5194,7 +5194,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9C7C)
-    (at 257.302 97.282 12)
+    (at 257.340863 97.393743 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64BD54)
@@ -5318,7 +5318,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9C38)
-    (at 240.157 62.103 12)
+    (at 240.212936 62.092765 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64BD3B)
@@ -5380,7 +5380,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9C16)
-    (at 226.949 45.339 12)
+    (at 226.879102 45.456229 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64BD2C)
@@ -5442,7 +5442,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9BF4)
-    (at 238.76 101.219 12)
+    (at 238.718785 101.365066 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C647DF8)
@@ -5504,7 +5504,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9BD2)
-    (at 230.251 83.566 12)
+    (at 230.135444 83.701372 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C647DF1)
@@ -5566,7 +5566,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9BB0)
-    (at 221.615 65.913 12)
+    (at 221.587033 66.029659 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C647DDF)
@@ -5628,7 +5628,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9B8E)
-    (at 208.153 49.403 12)
+    (at 208.273375 49.411604 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C647DD0)
@@ -5690,7 +5690,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_2.75u_RevStab (layer F.Cu) (tedit 6033FCDE) (tstamp 602E9B6C)
-    (at 212.471 126.365 12)
+    (at 212.54567 126.405471 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u")
     (path /5C4EF302/5C644B93)
@@ -5756,7 +5756,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9B46)
-    (at 220.218 105.283 12)
+    (at 220.063535 105.305001 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C644B8B)
@@ -5818,7 +5818,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9B24)
-    (at 211.582 87.63 12)
+    (at 211.520878 87.647023 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C644B84)
@@ -5880,7 +5880,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9B02)
-    (at 202.946 69.977 12)
+    (at 202.963458 70.013277 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C644B72)
@@ -5942,7 +5942,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9AE0)
-    (at 189.611 53.34 12)
+    (at 189.645551 53.366978 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C644B63)
@@ -6004,7 +6004,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9ABE)
-    (at 201.549 109.22 12)
+    (at 201.441212 109.255783 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C642496)
@@ -6066,7 +6066,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9A9C)
-    (at 192.913 91.567 12)
+    (at 192.876017 91.618637 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64248F)
@@ -6128,7 +6128,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9A7A)
-    (at 184.277 73.914 12)
+    (at 184.308862 73.98107 12)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64247D)
@@ -6190,7 +6190,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 604508CE)
-    (at 161.417 53.34 348)
+    (at 161.462926 53.264632 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64246E)
@@ -6252,7 +6252,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9A36)
-    (at 159.639 130.81 348)
+    (at 159.630614 130.831569 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64061A)
@@ -6314,7 +6314,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9A14)
-    (at 154.178 110.236 348)
+    (at 154.185801 110.17883 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C640612)
@@ -6376,7 +6376,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E99F2)
-    (at 148.844 89.535 348)
+    (at 148.92566 89.624161 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C64060B)
@@ -6438,7 +6438,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E99D0)
-    (at 148.209 69.977 348)
+    (at 148.180612 69.954886 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C6405F9)
@@ -6500,7 +6500,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 60324AC4)
-    (at 142.748 49.403 348)
+    (at 142.813005 49.309258 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C6405EA)
@@ -6562,7 +6562,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_2.00u_RevStab (layer F.Cu) (tedit 6033F54E) (tstamp 602E998C)
-    (at 131.572 124.841 348)
+    (at 131.655541 124.903964 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u")
     (path /5C4EF302/5C63F138)
@@ -6628,7 +6628,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9966)
-    (at 135.509 106.299 348)
+    (at 135.517871 106.236035 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63F130)
@@ -6690,7 +6690,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9944)
-    (at 130.302 85.598 348)
+    (at 130.280827 85.638153 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63F129)
@@ -6752,7 +6752,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9922)
-    (at 129.54 66.04 348)
+    (at 129.535779 65.987504 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63F117)
@@ -6814,7 +6814,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 6032465E)
-    (at 124.206 45.466 348)
+    (at 124.191344 45.359934 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63F108)
@@ -6876,7 +6876,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E98DE)
-    (at 116.967 102.235 348)
+    (at 116.876763 102.293239 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63E375)
@@ -6938,7 +6938,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 60324DCB)
-    (at 111.633 81.661 348)
+    (at 111.635994 81.670771 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63E36E)
@@ -7000,7 +7000,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E989A)
-    (at 110.871 61.976 348)
+    (at 110.889778 62.01517 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63E35C)
@@ -7124,7 +7124,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9856)
-    (at 99.06 117.983 348)
+    (at 99.013485 117.983956 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63DB22)
@@ -7186,7 +7186,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 602E9834)
-    (at 98.298 98.298 348)
+    (at 98.262477 98.323622 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63DB1A)
@@ -7248,7 +7248,7 @@
   )
 
   (module arisutea:SW_Hotswap_Kailh_1.00u (layer F.Cu) (tedit 602D5BED) (tstamp 6032429A)
-    (at 92.964 77.724 348)
+    (at 92.991606 77.696916 348)
     (descr "Kailh keyswitch Hotswap Socket, ")
     (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u")
     (path /5C4EF302/5C63DB13)
