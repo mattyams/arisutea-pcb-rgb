@@ -12,8 +12,10 @@ M2 * 5mm Screws | 16
 [M2 8mm Standoffs](https://smile.amazon.com/gp/product/B07WYCZ662/) | 8
 
 ![FR4-Plates-1](https://imgur.com/oCfGKm7.jpg)
-![FR4-Plates-2](https://imgur.com/YgkBZqZ.jpg)
-![FR4-Plates-3](https://imgur.com/DWLulrx.jpg)
-![FR4-Plates-4](https://imgur.com/sJeoB8D.jpg)
-![FR4-Plates-5](https://imgur.com/UTHojd2.jpg)
-![FR4-Plates-6](https://imgur.com/UeV90nA.jpg)
+![FR4-Plates-2](https://imgur.com/L0FgL0s.jpg)
+![FR4-Plates-3](https://imgur.com/QA77TCx.jpg)
+![FR4-Plates-4](https://imgur.com/YgkBZqZ.jpg)
+![FR4-Plates-5](https://imgur.com/DWLulrx.jpg)
+![FR4-Plates-6](https://imgur.com/sJeoB8D.jpg)
+![FR4-Plates-7](https://imgur.com/UTHojd2.jpg)
+![FR4-Plates-8](https://imgur.com/UeV90nA.jpg)
