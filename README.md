@@ -41,8 +41,9 @@ Case files are updated to reflect changes to the full backspace on switch 59 and
 Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB.
 
 ![FR4-Plates-1](https://imgur.com/oCfGKm7.jpg)
-![FR4-Plates-2](https://imgur.com/YgkBZqZ.jpg)
-![FR4-Plates-3](https://imgur.com/DWLulrx.jpg)
+![FR4-Plates-2](https://imgur.com/L0FgL0s.jpg)
+![FR4-Plates-3](https://imgur.com/QA77TCx.jpg)
+![FR4-Plates-6](https://imgur.com/sJeoB8D.jpg)
 ## Exceprts from original designer, FateNozomi:
 
 Key differences:
