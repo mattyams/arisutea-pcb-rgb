@@ -8,8 +8,8 @@ These are just what I used, obviously you can sub whatever you want. But this wo
 
 Material | Quantity
 ------------ | -------------
-M2 * 5mm Screws | 8
-[M2 8mm Standoffs](https://smile.amazon.com/gp/product/B07WYCZ662/) | 16
+M2 * 5mm Screws | 16
+[M2 8mm Standoffs](https://smile.amazon.com/gp/product/B07WYCZ662/) | 8
 
 ![FR4-Plates-1](https://imgur.com/oCfGKm7.jpg)
 ![FR4-Plates-2](https://imgur.com/YgkBZqZ.jpg)
