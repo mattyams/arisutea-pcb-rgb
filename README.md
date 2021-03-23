@@ -21,8 +21,8 @@ Key modifications to the PCB:
 - Updated JSON layout file for this particular keyboard.
 - Original mounting holes have been widened to allow for M2 standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
 
-![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom-3d.png)
-![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top-3d.png)
+![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom.png)
+![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top.png)
 ![Arisutea-assembled](https://i.imgur.com/b7rdr05.jpg)
 
 Just messing around with different switches.

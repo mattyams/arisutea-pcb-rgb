@@ -20,7 +20,7 @@ U 1 1 5C4B1F82
 P 4950 4250
 F 0 "U2" H 5350 2400 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 5350 2500 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4950 4250 50  0001 C CIN
+F 2 "arisutea:TQFP-44_10x10mm_P0.8mm" H 4950 4250 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4950 4250 50  0001 C CNN
 F 4 "C44854" H 4950 4250 50  0001 C CNN "LCSC"
 	1    4950 4250
@@ -32,7 +32,7 @@ U 1 1 5C4B2347
 P 2500 5600
 F 0 "U1" V 3050 5600 50  0000 C CNN
 F 1 "USBLC6-2SC6" V 3150 5600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 1750 6000 50  0001 C CNN
+F 2 "arisutea:SOT-23-6_Handsoldering" H 1750 6000 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 2700 5950 50  0001 C CNN
 F 4 "C7519" H 2500 5600 50  0001 C CNN "LCSC"
 	1    2500 5600
@@ -70,7 +70,7 @@ U 1 1 5C4B33F7
 P 4100 4200
 F 0 "C4" H 4215 4246 50  0000 L CNN
 F 1 "1uF (±10%)" H 4215 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4138 4050 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4138 4050 50  0001 C CNN
 F 3 "~" H 4100 4200 50  0001 C CNN
 F 4 "C28323" H 4100 4200 50  0001 C CNN "LCSC"
 	1    4100 4200
@@ -99,7 +99,7 @@ U 1 1 5C4BFB4D
 P 1800 3050
 F 0 "C1" H 1686 3004 50  0000 R CNN
 F 1 "22pF" H 1686 3095 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1838 2900 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1838 2900 50  0001 C CNN
 F 3 "~" H 1800 3050 50  0001 C CNN
 F 4 "C1804" H 1800 3050 50  0001 C CNN "LCSC"
 	1    1800 3050
@@ -111,7 +111,7 @@ U 1 1 5C4BFC59
 P 2500 3050
 F 0 "C2" H 2615 3096 50  0000 L CNN
 F 1 "22pF" H 2615 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 2900 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 2900 50  0001 C CNN
 F 3 "~" H 2500 3050 50  0001 C CNN
 F 4 "C1804" H 2500 3050 50  0001 C CNN "LCSC"
 	1    2500 3050
@@ -175,7 +175,7 @@ U 1 1 5C4C2975
 P 3700 4200
 F 0 "C3" H 3815 4246 50  0000 L CNN
 F 1 "10uF" H 3815 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3738 4050 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3738 4050 50  0001 C CNN
 F 3 "~" H 3700 4200 50  0001 C CNN
 F 4 "C15850" H 3700 4200 50  0001 C CNN "LCSC"
 	1    3700 4200
@@ -205,7 +205,7 @@ U 1 1 5C4CA743
 P 3850 2750
 F 0 "SWR1" H 3850 3035 50  0000 C CNN
 F 1 "SW_Push" H 3850 2944 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3850 2950 50  0001 C CNN
+F 2 "arisutea:SW_SPST_TL3342" H 3850 2950 50  0001 C CNN
 F 3 "" H 3850 2950 50  0001 C CNN
 F 4 "C318884" H 3850 2750 50  0001 C CNN "LCSC"
 	1    3850 2750
@@ -232,7 +232,7 @@ U 1 1 5C4CB1B6
 P 4250 2550
 F 0 "R3" H 4320 2596 50  0000 L CNN
 F 1 "10K" V 4250 2500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4180 2550 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4180 2550 50  0001 C CNN
 F 3 "~" H 4250 2550 50  0001 C CNN
 F 4 "C17414" H 4250 2550 50  0001 C CNN "LCSC"
 	1    4250 2550
@@ -313,7 +313,7 @@ U 1 1 5C4D647D
 P 5700 1150
 F 0 "C5" H 5815 1196 50  0000 L CNN
 F 1 "1uF" H 5815 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1000 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1000 50  0001 C CNN
 F 3 "~" H 5700 1150 50  0001 C CNN
 F 4 "C28323" H 5700 1150 50  0001 C CNN "LCSC"
 	1    5700 1150
@@ -325,7 +325,7 @@ U 1 1 5C4D6747
 P 5700 1700
 F 0 "C6" H 5815 1746 50  0000 L CNN
 F 1 "0.1uF" H 5815 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1550 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 1550 50  0001 C CNN
 F 3 "~" H 5700 1700 50  0001 C CNN
 F 4 "C28233" H 5700 1700 50  0001 C CNN "LCSC"
 	1    5700 1700
@@ -350,7 +350,7 @@ U 1 1 5C4DA48C
 P 6150 1700
 F 0 "C8" H 6265 1746 50  0000 L CNN
 F 1 "0.1uF" H 6265 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 1550 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 1550 50  0001 C CNN
 F 3 "~" H 6150 1700 50  0001 C CNN
 F 4 "C28233" H 6150 1700 50  0001 C CNN "LCSC"
 	1    6150 1700
@@ -362,7 +362,7 @@ U 1 1 5C4DEE57
 P 5700 2250
 F 0 "C7" H 5815 2296 50  0000 L CNN
 F 1 "0.1uF" H 5815 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 2100 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5738 2100 50  0001 C CNN
 F 3 "~" H 5700 2250 50  0001 C CNN
 F 4 "C28233" H 5700 2250 50  0001 C CNN "LCSC"
 	1    5700 2250
@@ -385,7 +385,7 @@ U 1 1 5C4DEEC8
 P 6150 2250
 F 0 "C9" H 6265 2296 50  0000 L CNN
 F 1 "0.1uF" H 6265 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 2100 50  0001 C CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6188 2100 50  0001 C CNN
 F 3 "~" H 6150 2250 50  0001 C CNN
 F 4 "C28233" H 6150 2250 50  0001 C CNN "LCSC"
 	1    6150 2250
@@ -573,7 +573,7 @@ U 1 1 5C4E7AD8
 P 6150 5900
 F 0 "R4" H 6220 5946 50  0000 L CNN
 F 1 "10K" V 6150 5850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6080 5900 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6080 5900 50  0001 C CNN
 F 3 "~" H 6150 5900 50  0001 C CNN
 F 4 "C17414" H 6150 5900 50  0001 C CNN "LCSC"
 	1    6150 5900
@@ -702,50 +702,6 @@ Wire Wire Line
 	7600 3500 7950 3500
 Wire Wire Line
 	7600 3400 7950 3400
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5C895E5D
-P 6550 6600
-F 0 "J8" H 6629 6642 50  0000 L CNN
-F 1 "PF4" H 6629 6551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6550 6600 50  0001 C CNN
-F 3 "~" H 6550 6600 50  0001 C CNN
-	1    6550 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 5C895ED7
-P 6550 6800
-F 0 "J9" H 6629 6842 50  0000 L CNN
-F 1 "PF5" H 6629 6751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6550 6800 50  0001 C CNN
-F 3 "~" H 6550 6800 50  0001 C CNN
-	1    6550 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5C895F1B
-P 6550 7000
-F 0 "J10" H 6629 7042 50  0000 L CNN
-F 1 "PF6" H 6629 6951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6550 7000 50  0001 C CNN
-F 3 "~" H 6550 7000 50  0001 C CNN
-	1    6550 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5C895F5B
-P 6550 7200
-F 0 "J11" H 6629 7242 50  0000 L CNN
-F 1 "PF7" H 6629 7151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6550 7200 50  0001 C CNN
-F 3 "~" H 6550 7200 50  0001 C CNN
-	1    6550 7200
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	5950 7300 6050 7200
 Entry Wire Line
@@ -798,72 +754,6 @@ Wire Wire Line
 	5800 3150 5800 3200
 Wire Wire Line
 	5800 3200 6650 3200
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5C90B624
-P 3350 900
-F 0 "J2" H 3500 850 50  0000 C CNN
-F 1 "MISO" H 3500 950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 900 50  0001 C CNN
-F 3 "~" H 3350 900 50  0001 C CNN
-	1    3350 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5C90B878
-P 3350 1100
-F 0 "J3" H 3500 1050 50  0000 C CNN
-F 1 "VCC" H 3500 1150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 1100 50  0001 C CNN
-F 3 "~" H 3350 1100 50  0001 C CNN
-	1    3350 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5C90BFC6
-P 3350 1300
-F 0 "J4" H 3500 1250 50  0000 C CNN
-F 1 "SCK" H 3500 1350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
-F 3 "~" H 3350 1300 50  0001 C CNN
-	1    3350 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5C90C00A
-P 3350 1500
-F 0 "J5" H 3500 1450 50  0000 C CNN
-F 1 "MOSI" H 3500 1550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 1500 50  0001 C CNN
-F 3 "~" H 3350 1500 50  0001 C CNN
-	1    3350 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5C90C19E
-P 3350 1700
-F 0 "J6" H 3500 1650 50  0000 C CNN
-F 1 "RES" H 3500 1750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 1700 50  0001 C CNN
-F 3 "~" H 3350 1700 50  0001 C CNN
-	1    3350 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5C90C1E8
-P 3350 1900
-F 0 "J7" H 3500 1850 50  0000 C CNN
-F 1 "GND" H 3500 1950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 1900 50  0001 C CNN
-F 3 "~" H 3350 1900 50  0001 C CNN
-	1    3350 1900
-	-1   0    0    1   
-$EndComp
 Entry Wire Line
 	3900 900  4000 1000
 Entry Wire Line
@@ -1002,50 +892,6 @@ Text Label 7650 3000 0    50   ~ 0
 row2
 Text Label 7650 3100 0    50   ~ 0
 row3
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 5C4E1CA1
-P 3600 6700
-F 0 "J13" H 3679 6742 50  0000 L CNN
-F 1 "D+" H 3679 6651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3600 6700 50  0001 C CNN
-F 3 "~" H 3600 6700 50  0001 C CNN
-	1    3600 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5C4F0ABE
-P 3600 6850
-F 0 "J14" H 3679 6892 50  0000 L CNN
-F 1 "D-" H 3679 6801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3600 6850 50  0001 C CNN
-F 3 "~" H 3600 6850 50  0001 C CNN
-	1    3600 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5C505CBA
-P 3600 6550
-F 0 "J12" H 3679 6592 50  0000 L CNN
-F 1 "VCC" H 3679 6501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3600 6550 50  0001 C CNN
-F 3 "~" H 3600 6550 50  0001 C CNN
-	1    3600 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5C505D0A
-P 3600 7000
-F 0 "J15" H 3679 7042 50  0000 L CNN
-F 1 "GND" H 3679 6951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3600 7000 50  0001 C CNN
-F 3 "~" H 3600 7000 50  0001 C CNN
-	1    3600 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 7000 3300 7050
 $Comp
@@ -1065,7 +911,7 @@ U 1 1 5C583EFC
 P 9800 2900
 F 0 "H1" H 9900 2946 50  0000 L CNN
 F 1 "ThroughHole" H 9900 2855 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 2900 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 2900 50  0001 C CNN
 F 3 "~" H 9800 2900 50  0001 C CNN
 	1    9800 2900
 	1    0    0    -1  
@@ -1076,7 +922,7 @@ U 1 1 5C584371
 P 9800 3100
 F 0 "H2" H 9900 3146 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3055 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3100 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3100 50  0001 C CNN
 F 3 "~" H 9800 3100 50  0001 C CNN
 	1    9800 3100
 	1    0    0    -1  
@@ -1087,7 +933,7 @@ U 1 1 5C59C18D
 P 9800 3300
 F 0 "H3" H 9900 3346 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3255 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3300 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3300 50  0001 C CNN
 F 3 "~" H 9800 3300 50  0001 C CNN
 	1    9800 3300
 	1    0    0    -1  
@@ -1098,7 +944,7 @@ U 1 1 5C59C1E9
 P 9800 3500
 F 0 "H4" H 9900 3546 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3455 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3500 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3500 50  0001 C CNN
 F 3 "~" H 9800 3500 50  0001 C CNN
 	1    9800 3500
 	1    0    0    -1  
@@ -1109,7 +955,7 @@ U 1 1 5C59C249
 P 9800 3700
 F 0 "H5" H 9900 3746 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3655 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3700 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3700 50  0001 C CNN
 F 3 "~" H 9800 3700 50  0001 C CNN
 	1    9800 3700
 	1    0    0    -1  
@@ -1120,7 +966,7 @@ U 1 1 5C59C2A7
 P 9800 3900
 F 0 "H6" H 9900 3946 50  0000 L CNN
 F 1 "ThroughHole" H 9900 3855 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 3900 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 3900 50  0001 C CNN
 F 3 "~" H 9800 3900 50  0001 C CNN
 	1    9800 3900
 	1    0    0    -1  
@@ -1131,7 +977,7 @@ U 1 1 5C59C305
 P 9800 4100
 F 0 "H7" H 9900 4146 50  0000 L CNN
 F 1 "ThroughHole" H 9900 4055 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 4100 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 4100 50  0001 C CNN
 F 3 "~" H 9800 4100 50  0001 C CNN
 	1    9800 4100
 	1    0    0    -1  
@@ -1142,7 +988,7 @@ U 1 1 5C59C367
 P 9800 4300
 F 0 "H8" H 9900 4346 50  0000 L CNN
 F 1 "ThroughHole" H 9900 4255 50  0000 L CNN
-F 2 "Mounting_Keyboard_Stabilizer:THROUGH_HOLE_M2" H 9800 4300 50  0001 C CNN
+F 2 "arisutea:Plated_Through_Hole_M2" H 9800 4300 50  0001 C CNN
 F 3 "~" H 9800 4300 50  0001 C CNN
 	1    9800 4300
 	1    0    0    -1  
@@ -1164,7 +1010,7 @@ U 1 1 5F98F744
 P 1450 6900
 F 0 "R5" V 1243 6900 50  0000 C CNN
 F 1 "5k1" V 1334 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6900 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6900 50  0001 C CNN
 F 3 "~" H 1450 6900 50  0001 C CNN
 F 4 "C27834" H 1450 6900 50  0001 C CNN "LCSC"
 	1    1450 6900
@@ -1176,7 +1022,7 @@ U 1 1 5F9A4013
 P 1450 6600
 F 0 "R6" V 1243 6600 50  0000 C CNN
 F 1 "5k1" V 1334 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6600 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6600 50  0001 C CNN
 F 3 "~" H 1450 6600 50  0001 C CNN
 F 4 "C27834" H 1450 6600 50  0001 C CNN "LCSC"
 	1    1450 6600
@@ -1234,7 +1080,7 @@ U 1 1 5C4B25B0
 P 3600 5550
 F 0 "R2" V 3500 5550 50  0000 C CNN
 F 1 "22" V 3600 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5550 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5550 50  0001 C CNN
 F 3 "~" H 3600 5550 50  0001 C CNN
 F 4 "C17561" H 3600 5550 50  0001 C CNN "LCSC"
 	1    3600 5550
@@ -1246,7 +1092,7 @@ U 1 1 5C4B245D
 P 3600 5650
 F 0 "R1" V 3700 5650 50  0000 C CNN
 F 1 "22" V 3600 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5650 50  0001 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5650 50  0001 C CNN
 F 3 "~" H 3600 5650 50  0001 C CNN
 F 4 "C17561" H 3600 5650 50  0001 C CNN "LCSC"
 	1    3600 5650
@@ -1286,7 +1132,7 @@ U 1 1 6032001A
 P 2500 6800
 F 0 "F1" V 2295 6800 50  0000 C CNN
 F 1 "500mA" V 2386 6800 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2550 6600 50  0001 L CNN
+F 2 "arisutea:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2550 6600 50  0001 L CNN
 F 3 "~" H 2500 6800 50  0001 C CNN
 	1    2500 6800
 	0    1    1    0   
@@ -1326,7 +1172,7 @@ U 1 1 603F7935
 P 1050 5550
 F 0 "USB1" H 1050 6350 50  0000 C CNN
 F 1 "USB_C_HRO_TYPE-C-31-M-12-USB_Type-C" V 600 5550 50  0000 C CNN
-F 2 "USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering" H 1200 5550 50  0001 C CNN
+F 2 "arisutea:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering" H 1200 5550 50  0001 C CNN
 F 3 "" H 1200 5550 50  0001 C CNN
 	1    1050 5550
 	1    0    0    -1  
@@ -1348,7 +1194,7 @@ $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO1
 U 1 1 6042E29E
 P 9900 6150
-F 0 "LOGO1" H 9900 6500 50  0000 C CNN
+F 0 "LOGO1" H 9900 6350 50  0000 C CNN
 F 1 "arisutea_logo" H 9975 6524 50  0001 C CNN
 F 2 "arisutea:arisutea_logo" H 9900 6500 50  0001 C CNN
 F 3 "" H 9900 6500 50  0001 C CNN
@@ -1367,13 +1213,169 @@ U 1 1 5C4BFA85
 P 2150 2900
 F 0 "Y1" H 2100 3250 50  0000 L CNN
 F 1 "Crystal_GND24" H 1900 3150 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering" H 2150 2900 50  0001 C CNN
+F 2 "arisutea:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering" H 2150 2900 50  0001 C CNN
 F 3 "~" H 2150 2900 50  0001 C CNN
 F 4 "C89371" H 2150 2900 50  0001 C CNN "LCSC"
 	1    2150 2900
 	1    0    0    -1  
 $EndComp
 Connection ~ 1050 6450
+Wire Wire Line
+	1650 4950 3000 4950
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5C895F5B
+P 6550 7200
+F 0 "J11" H 6629 7242 50  0000 L CNN
+F 1 "PF7" H 6629 7151 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 6550 7200 50  0001 C CNN
+F 3 "~" H 6550 7200 50  0001 C CNN
+	1    6550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5C895F1B
+P 6550 7000
+F 0 "J10" H 6629 7042 50  0000 L CNN
+F 1 "PF6" H 6629 6951 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 6550 7000 50  0001 C CNN
+F 3 "~" H 6550 7000 50  0001 C CNN
+	1    6550 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5C895ED7
+P 6550 6800
+F 0 "J9" H 6629 6842 50  0000 L CNN
+F 1 "PF5" H 6629 6751 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 6550 6800 50  0001 C CNN
+F 3 "~" H 6550 6800 50  0001 C CNN
+	1    6550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5C895E5D
+P 6550 6600
+F 0 "J8" H 6629 6642 50  0000 L CNN
+F 1 "PF4" H 6629 6551 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 6550 6600 50  0001 C CNN
+F 3 "~" H 6550 6600 50  0001 C CNN
+	1    6550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 5C505D0A
+P 3600 7000
+F 0 "J15" H 3679 7042 50  0000 L CNN
+F 1 "GND" H 3679 6951 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 7000 50  0001 C CNN
+F 3 "~" H 3600 7000 50  0001 C CNN
+	1    3600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 5C4F0ABE
+P 3600 6850
+F 0 "J14" H 3679 6892 50  0000 L CNN
+F 1 "D-" H 3679 6801 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6850 50  0001 C CNN
+F 3 "~" H 3600 6850 50  0001 C CNN
+	1    3600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 5C4E1CA1
+P 3600 6700
+F 0 "J13" H 3679 6742 50  0000 L CNN
+F 1 "D+" H 3679 6651 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6700 50  0001 C CNN
+F 3 "~" H 3600 6700 50  0001 C CNN
+	1    3600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J12
+U 1 1 5C505CBA
+P 3600 6550
+F 0 "J12" H 3679 6592 50  0000 L CNN
+F 1 "VCC" H 3679 6501 50  0000 L CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3600 6550 50  0001 C CNN
+F 3 "~" H 3600 6550 50  0001 C CNN
+	1    3600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5C90C1E8
+P 3350 1900
+F 0 "J7" H 3500 1850 50  0000 C CNN
+F 1 "GND" H 3500 1950 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1900 50  0001 C CNN
+F 3 "~" H 3350 1900 50  0001 C CNN
+	1    3350 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C90C19E
+P 3350 1700
+F 0 "J6" H 3500 1650 50  0000 C CNN
+F 1 "RES" H 3500 1750 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1700 50  0001 C CNN
+F 3 "~" H 3350 1700 50  0001 C CNN
+	1    3350 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C90C00A
+P 3350 1500
+F 0 "J5" H 3500 1450 50  0000 C CNN
+F 1 "MOSI" H 3500 1550 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1500 50  0001 C CNN
+F 3 "~" H 3350 1500 50  0001 C CNN
+	1    3350 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C90BFC6
+P 3350 1300
+F 0 "J4" H 3500 1250 50  0000 C CNN
+F 1 "SCK" H 3500 1350 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1300 50  0001 C CNN
+F 3 "~" H 3350 1300 50  0001 C CNN
+	1    3350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C90B878
+P 3350 1100
+F 0 "J3" H 3500 1050 50  0000 C CNN
+F 1 "VCC" H 3500 1150 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1100 50  0001 C CNN
+F 3 "~" H 3350 1100 50  0001 C CNN
+	1    3350 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C90B624
+P 3350 900
+F 0 "J2" H 3500 850 50  0000 C CNN
+F 1 "MISO" H 3500 950 50  0000 C CNN
+F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 900 50  0001 C CNN
+F 3 "~" H 3350 900 50  0001 C CNN
+	1    3350 900 
+	-1   0    0    1   
+$EndComp
 Wire Bus Line
 	6200 2700 6200 3150
 Wire Bus Line
@@ -1384,6 +1386,15 @@ Wire Bus Line
 	7500 2650 7500 5800
 Wire Bus Line
 	7200 2750 7200 5800
-Wire Wire Line
-	1650 4950 3000 4950
+$Comp
+L arisutea-pcb-r1:arisutea_logo LOGO2
+U 1 1 605B7585
+P 10250 6150
+F 0 "LOGO2" H 10250 6350 50  0000 C CNN
+F 1 "arisutea_logo" H 10325 6524 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 10250 6500 50  0001 C CNN
+F 3 "" H 10250 6500 50  0001 C CNN
+	1    10250 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
