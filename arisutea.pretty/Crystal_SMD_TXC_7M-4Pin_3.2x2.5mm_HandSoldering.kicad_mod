@@ -1,4 +1,4 @@
-(module Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering (layer F.Cu) (tedit 5A0FD1B2)
+(module Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering (layer F.Cu) (tedit 605A34D9)
   (descr "SMD Crystal TXC 7M http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, hand-soldering, 3.2x2.5mm^2 package")
   (tags "SMD SMT crystal hand-soldering")
   (attr smd)
@@ -22,6 +22,7 @@
   (fp_line (start -2.8 2.3) (end 2.8 2.3) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.8 2.3) (end 2.8 -2.3) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.8 -2.3) (end -2.8 -2.3) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center -3.175 2.667) (end -3.048 2.667) (layer F.SilkS) (width 0.5))
   (pad 1 smd rect (at -1.45 1.15) (size 2.1 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.45 1.15) (size 2.1 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.45 -1.15) (size 2.1 1.8) (layers F.Cu F.Paste F.Mask))

@@ -1,4 +1,4 @@
-(module TQFP-44_10x10mm_P0.8mm (layer F.Cu) (tedit 5A02F146)
+(module TQFP-44_10x10mm_P0.8mm (layer F.Cu) (tedit 605A3486)
   (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFP 0.8")
   (attr smd)
@@ -29,6 +29,7 @@
   (fp_line (start 5.175 5.175) (end 4.5 5.175) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.175 -5.175) (end 4.5 -5.175) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.175 -4.6) (end -6.45 -4.6) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -5.715 -5.715) (end -5.588 -5.715) (layer F.SilkS) (width 0.5))
   (pad 1 smd rect (at -5.7 -4) (size 1.5 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -5.7 -3.2) (size 1.5 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -5.7 -2.4) (size 1.5 0.55) (layers F.Cu F.Paste F.Mask))
