@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Arisutea"
-Date ""
-Rev "0.4"
-Comp "3x6 Designs"
+Title "Arisutea Keyboard"
+Date "2021-03-25"
+Rev "0.5"
+Comp "3x6 Design"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1326,7 +1326,7 @@ L Connector_Generic:Conn_01x01 J6
 U 1 1 5C90C19E
 P 3350 1700
 F 0 "J6" H 3500 1650 50  0000 C CNN
-F 1 "RES" H 3500 1750 50  0000 C CNN
+F 1 "~RES~" H 3500 1750 50  0000 C CNN
 F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1700 50  0001 C CNN
 F 3 "~" H 3350 1700 50  0001 C CNN
 	1    3350 1700
@@ -1359,7 +1359,7 @@ L Connector_Generic:Conn_01x01 J3
 U 1 1 5C90B878
 P 3350 1100
 F 0 "J3" H 3500 1050 50  0000 C CNN
-F 1 "VCC" H 3500 1150 50  0000 C CNN
+F 1 "+5V" H 3500 1150 50  0000 C CNN
 F 2 "arisutea:PinHeader_1x01_P2.54mm_Vertical" H 3350 1100 50  0001 C CNN
 F 3 "~" H 3350 1100 50  0001 C CNN
 	1    3350 1100
@@ -1376,16 +1376,6 @@ F 3 "~" H 3350 900 50  0001 C CNN
 	1    3350 900 
 	-1   0    0    1   
 $EndComp
-Wire Bus Line
-	6200 2700 6200 3150
-Wire Bus Line
-	4000 700  4000 2100
-Wire Bus Line
-	5950 5350 5950 7400
-Wire Bus Line
-	7500 2650 7500 5800
-Wire Bus Line
-	7200 2750 7200 5800
 $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO2
 U 1 1 605B7585
@@ -1397,4 +1387,14 @@ F 3 "" H 10250 6500 50  0001 C CNN
 	1    10250 6150
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6200 2700 6200 3150
+Wire Bus Line
+	4000 700  4000 2100
+Wire Bus Line
+	5950 5350 5950 7400
+Wire Bus Line
+	7500 2650 7500 5800
+Wire Bus Line
+	7200 2750 7200 5800
 $EndSCHEMATC

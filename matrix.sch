@@ -5,10 +5,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
-Title "Arisutea Key Switch Matrix"
-Date ""
-Rev "0.4"
-Comp "3x6 Designs"
+Title "Arisutea Keyboard"
+Date "2021-03-25"
+Rev "0.5"
+Comp "3x6 Design"
 Comment1 ""
 Comment2 ""
 Comment3 ""
