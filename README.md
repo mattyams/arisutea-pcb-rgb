@@ -1,11 +1,15 @@
-# THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING UNTIL PROTOS HAVE BEEN ORDERED AND TESTED!
+# THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING!
 - [x] Acrylic Case assembled and tested on original design 03/06/21
-- [x] PCBs ordered 03/07/21
+- [x] v0.4 PCBs ordered 03/07/21
 - [x] Second Acrylic Case ordered 03/07/21
 - [X] Assemble FR4 Case to original design 03/14/21
 - [X] Assemble Arisutea PCB once received 03/16/21
-- [ ] Assemble Acrylic Case to Arisutea design
-- [ ] Assemble FR4 Case to Arisutea design
+- [X] Assemble Acrylic Case to Arisutea design 03/27/21
+- [X] Assemble FR4 Case to Arisutea design 03/27/21
+- [X] v0.6 PCBs ordered 03/27/21
+- [ ] Assemble Arisutea v0.6 PCB once received
+- [ ] Third Acrylic Case ordered for LEDs
+- [ ] Assemble Acrylic Case to Arisutea v0.6 design
 - [ ] Edit QMK firmware for Arisutea design
 # Arisutea Keyboard PCB with More Modifications
 ## Disclaimer: Use these files at your own risk.
@@ -18,8 +22,10 @@ Key modifications to the PCB:
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
+- Added underglow LED strip support (v0.6 - not tested - on order)
+- Added LED indicators for CAPS and NUM lock as well as layer. (v0.6 - not tested - on order)
 - Updated JSON layout file for this particular keyboard.
-- Original mounting holes have been widened to allow for M2 standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
+- Original mounting holes have been widened to allow for M2+ standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
 
 ![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom.png)
 ![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top.png)
@@ -29,7 +35,7 @@ Just messing around with different switches.
 ![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
 # Case Files for Ponoko
 
-Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There is now a "boxed" version of the case that I have made that is designed to work with some wrist rests that do not have the ortho shape. I have not tested this design fully but will be ordering the case soon from Ponoko.
+Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There is now a "boxed" version of the case that I have made that is designed to work with some wrist rests that do not have the ortho shape. I have not tested this design yet but the prototype should be here this coming week (3/29/2021). There are now case files for version 0.6 that include the indicator LEDs, I have not ordered/tested these but will soon.
 
 ![Ponoko-case-1](https://imgur.com/FcGVhWI.jpg)
 ![Ponoko-case-2](https://imgur.com/hdUOVdj.jpg)
@@ -38,7 +44,7 @@ Case files are updated to reflect changes to the full backspace on switch 59 and
 
 # FR4 Plates and Case
 
-Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB.
+Additionaly I have created files for FR4 plates to be made and used with this layout. These can be found in the hardware folder under [FR4_Plates](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/FR4_Plates). The plates are designed to fit with the full backspace and non-stepped capslock. That being said, these will not work on the original Fate Designs PCB. Plates for the LED indicators have not been made just yet, but will be soon.
 
 ![FR4-Plates-1](https://imgur.com/oCfGKm7.jpg)
 ![FR4-Plates-2](https://imgur.com/L0FgL0s.jpg)

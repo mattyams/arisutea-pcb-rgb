@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# IN-S124ARUW
+#
+DEF IN-S124ARUW D 0 40 Y N 1 L N
+F0 "D" -122 177 50 H V L BNN
+F1 "IN-S124ARUW" -140 -130 50 H V L BNN
+F2 "LED_IN-S124ARUW" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IN-S124ARUW" 0 0 50 H I L BNN "MP"
+F5 "SMD-2 Inolux" 0 0 50 H I L BNN "PACKAGE"
+F6 "https://snapeda.com/shop?store=DigiKey&id=2130298" 0 0 50 H I L BNN "DIGIKEY-PURCHASE-URL"
+F7 "Warning" 0 0 50 H I L BNN "AVAILABILITY"
+F8 "None" 0 0 50 H I L BNN "PRICE"
+F9 "https://snapeda.com/shop?store=Mouser&id=2130298" 0 0 50 H I L BNN "MOUSER-PURCHASE-URL"
+F10 "0.3mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F11 "Inolux" 0 0 50 H I L BNN "MF"
+F12 "White LED Indication - Discrete 3.3V 2-SMD, No Lead" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+P 2 0 0 10 -100 60 -100 0 N
+P 2 0 0 10 -100 0 -100 -60 N
+P 2 0 0 10 -100 -60 0 0 N
+P 2 0 0 10 0 0 -100 60 N
+P 2 0 0 10 0 60 0 -60 N
+P 2 0 0 6 -100 0 -200 0 N
+P 2 0 0 10 40 160 -30 80 N
+P 2 0 0 10 27 122 5 141 N
+P 2 0 0 10 5 141 40 160 N
+P 2 0 0 10 40 160 27 122 N
+P 2 0 0 10 27 122 28 151 N
+P 2 0 0 10 28 151 23 151 N
+P 2 0 0 10 12 138 21 144 N
+P 2 0 0 10 -9 164 -79 84 N
+P 2 0 0 10 -22 126 -44 145 N
+P 2 0 0 10 -44 145 -9 164 N
+P 2 0 0 10 -9 164 -22 126 N
+P 2 0 0 10 -22 126 -21 155 N
+P 2 0 0 10 -21 155 -26 155 N
+P 2 0 0 10 -37 142 -28 148 N
+X ~ C 200 0 200 L 40 40 0 0 P 
+X ~ A -300 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
