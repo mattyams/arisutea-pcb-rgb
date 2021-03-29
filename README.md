@@ -33,6 +33,10 @@ Key modifications to the PCB:
 
 Just messing around with different switches.
 ![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
+
+The family, so far....
+![Arisutea-builds](https://i.imgur.com/b8SRfIZ.jpg)
+
 # Case Files for Ponoko
 
 Case files are updated to reflect changes to the full backspace on switch 59 and can be found in the hardware folder under [arisutea-case](https://github.com/mattyams/arisutea-pcb/tree/master/hardware/arisutea-case).  The case I ordered with these changes just came in this week (3/6/2021) and it works very well with the changes I made to the full backspace and addition of the stablizer on the prototypes designed by CorruptedJef and robotictomato. There is now a "boxed" version of the case that I have made that is designed to work with some wrist rests that do not have the ortho shape. I have not tested this design yet but the prototype should be here this coming week (3/29/2021). There are now case files for version 0.6 that include the indicator LEDs, I have not ordered/tested these but will soon.
