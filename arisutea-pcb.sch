@@ -701,11 +701,11 @@ Wire Wire Line
 Wire Wire Line
 	7600 3400 7950 3400
 Entry Wire Line
-	5950 7300 6050 7200
-Entry Wire Line
-	5950 7100 6050 7000
+	5950 7000 6050 6900
 Entry Wire Line
 	5950 6900 6050 6800
+Entry Wire Line
+	5950 6800 6050 6700
 Entry Wire Line
 	5950 6700 6050 6600
 Wire Bus Line
@@ -811,11 +811,11 @@ Wire Wire Line
 	4150 1900 4150 1950
 Text Label 6100 6600 0    50   ~ 0
 CAPS_L
-Text Label 6100 6800 0    50   ~ 0
+Text Label 6100 6700 0    50   ~ 0
 NUM_L
-Text Label 6100 7000 0    50   ~ 0
+Text Label 6100 6800 0    50   ~ 0
 FN_L
-Text Label 6100 7200 0    50   ~ 0
+Text Label 6100 6900 0    50   ~ 0
 RGB
 NoConn ~ 4350 3350
 Wire Wire Line
@@ -998,8 +998,8 @@ $Comp
 L Device:R R5
 U 1 1 5F98F744
 P 1450 6900
-F 0 "R5" V 1243 6900 50  0000 C CNN
-F 1 "5k1" V 1334 6900 50  0000 C CNN
+F 0 "R5" V 1350 6900 50  0000 C CNN
+F 1 "5k1" V 1450 6900 50  0000 C CNN
 F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6900 50  0001 C CNN
 F 3 "~" H 1450 6900 50  0001 C CNN
 F 4 "C27834" H 1450 6900 50  0001 C CNN "LCSC"
@@ -1010,8 +1010,8 @@ $Comp
 L Device:R R6
 U 1 1 5F9A4013
 P 1450 6600
-F 0 "R6" V 1243 6600 50  0000 C CNN
-F 1 "5k1" V 1334 6600 50  0000 C CNN
+F 0 "R6" V 1350 6600 50  0000 C CNN
+F 1 "5k1" V 1450 6600 50  0000 C CNN
 F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1380 6600 50  0001 C CNN
 F 3 "~" H 1450 6600 50  0001 C CNN
 F 4 "C27834" H 1450 6600 50  0001 C CNN "LCSC"
@@ -1183,12 +1183,12 @@ Wire Wire Line
 $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO1
 U 1 1 6042E29E
-P 9900 6150
-F 0 "LOGO1" H 9900 6350 50  0000 C CNN
-F 1 "arisutea_logo" H 9975 6524 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 9900 6500 50  0001 C CNN
-F 3 "" H 9900 6500 50  0001 C CNN
-	1    9900 6150
+P 8700 6100
+F 0 "LOGO1" H 8700 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 8775 6474 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 8700 6450 50  0001 C CNN
+F 3 "" H 8700 6450 50  0001 C CNN
+	1    8700 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1325,12 +1325,12 @@ $EndComp
 $Comp
 L arisutea-pcb-r1:arisutea_logo LOGO2
 U 1 1 605B7585
-P 10250 6150
-F 0 "LOGO2" H 10250 6350 50  0000 C CNN
-F 1 "arisutea_logo" H 10325 6524 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 10250 6500 50  0001 C CNN
-F 3 "" H 10250 6500 50  0001 C CNN
-	1    10250 6150
+P 9050 6100
+F 0 "LOGO2" H 9050 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 9125 6474 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 9050 6450 50  0001 C CNN
+F 3 "" H 9050 6450 50  0001 C CNN
+	1    9050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1438,24 +1438,24 @@ Wire Wire Line
 	7200 1400 7400 1400
 Wire Wire Line
 	7200 1950 7400 1950
-Text GLabel 6400 7200 2    50   Input ~ 0
+Text GLabel 6400 6900 2    50   Input ~ 0
 RGB
 Text Label 5600 5450 0    50   ~ 0
 CAPS_L
-Text GLabel 6400 7000 2    50   Input ~ 0
-FN_L
 Text GLabel 6400 6800 2    50   Input ~ 0
+FN_L
+Text GLabel 6400 6700 2    50   Input ~ 0
 NUM_L
 Text GLabel 6400 6600 2    50   Input ~ 0
 CAPS_L
 Wire Wire Line
 	6050 6600 6400 6600
 Wire Wire Line
+	6050 6700 6400 6700
+Wire Wire Line
 	6050 6800 6400 6800
 Wire Wire Line
-	6050 7000 6400 7000
-Wire Wire Line
-	6050 7200 6400 7200
+	6050 6900 6400 6900
 $Comp
 L arisutea-pcb-r1:LED LED3
 U 1 1 6064AA9E
@@ -1484,8 +1484,8 @@ $Comp
 L Device:R R8
 U 1 1 60669F17
 P 9050 1450
-F 0 "R8" V 8843 1450 50  0000 C CNN
-F 1 "470" V 8934 1450 50  0000 C CNN
+F 0 "R8" V 8950 1450 50  0000 C CNN
+F 1 "470" V 9050 1450 50  0000 C CNN
 F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 1450 50  0001 C CNN
 F 3 "~" H 9050 1450 50  0001 C CNN
 	1    9050 1450
@@ -1495,8 +1495,8 @@ $Comp
 L Device:R R9
 U 1 1 6066AD99
 P 9050 1950
-F 0 "R9" V 8843 1950 50  0000 C CNN
-F 1 "470" V 8934 1950 50  0000 C CNN
+F 0 "R9" V 8950 1950 50  0000 C CNN
+F 1 "470" V 9050 1950 50  0000 C CNN
 F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 1950 50  0001 C CNN
 F 3 "~" H 9050 1950 50  0001 C CNN
 	1    9050 1950
@@ -1506,8 +1506,8 @@ $Comp
 L Device:R R7
 U 1 1 6066B154
 P 9050 950
-F 0 "R7" V 8843 950 50  0000 C CNN
-F 1 "470" V 8934 950 50  0000 C CNN
+F 0 "R7" V 8950 950 50  0000 C CNN
+F 1 "470" V 9050 950 50  0000 C CNN
 F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8980 950 50  0001 C CNN
 F 3 "~" H 9050 950 50  0001 C CNN
 	1    9050 950 
@@ -1579,16 +1579,58 @@ Text GLabel 8700 1950 0    50   Input ~ 0
 NUM_L
 Text GLabel 8700 950  0    50   Input ~ 0
 FN_L
+$Comp
+L arisutea-pcb-r1:arisutea_logo LOGO3
+U 1 1 6062F214
+P 9400 6100
+F 0 "LOGO3" H 9400 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 9475 6474 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 9400 6450 50  0001 C CNN
+F 3 "" H 9400 6450 50  0001 C CNN
+	1    9400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb-r1:arisutea_logo LOGO4
+U 1 1 6062F624
+P 9750 6100
+F 0 "LOGO4" H 9750 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 9825 6474 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 9750 6450 50  0001 C CNN
+F 3 "" H 9750 6450 50  0001 C CNN
+	1    9750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb-r1:arisutea_logo LOGO5
+U 1 1 6063AB78
+P 10100 6100
+F 0 "LOGO5" H 10100 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 10175 6474 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 10100 6450 50  0001 C CNN
+F 3 "" H 10100 6450 50  0001 C CNN
+	1    10100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L arisutea-pcb-r1:arisutea_logo LOGO6
+U 1 1 6063AEC9
+P 10450 6100
+F 0 "LOGO6" H 10450 6300 50  0000 C CNN
+F 1 "arisutea_logo" H 10525 6474 50  0001 C CNN
+F 2 "arisutea:arisutea_logo" H 10450 6450 50  0001 C CNN
+F 3 "" H 10450 6450 50  0001 C CNN
+	1    10450 6100
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6200 2700 6200 3150
 Wire Bus Line
 	4000 700  4000 2100
 Wire Bus Line
-	5950 5350 5950 7400
+	5950 5350 5950 7100
 Wire Bus Line
 	7500 2650 7500 5800
 Wire Bus Line
 	7200 2750 7200 5800
-Connection ~ 9400 1950
-Connection ~ 9700 1950
 $EndSCHEMATC
