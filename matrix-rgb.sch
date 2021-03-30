@@ -1,0 +1,623 @@
+EESchema Schematic File Version 4
+LIBS:arisutea-pcb-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B LED4
+U 1 1 60661D04
+P 2300 2900
+F 0 "LED4" H 2650 2850 50  0000 L CNN
+F 1 "WS2812B" H 2650 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 2350 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 2525 50  0001 L TNN
+	1    2300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED5
+U 1 1 60662261
+P 3350 2900
+F 0 "LED5" H 3700 2850 50  0000 L CNN
+F 1 "WS2812B" H 3700 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 3400 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 2525 50  0001 L TNN
+	1    3350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED6
+U 1 1 60666BA5
+P 4350 2900
+F 0 "LED6" H 4700 2850 50  0000 L CNN
+F 1 "WS2812B" H 4700 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 4400 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4450 2525 50  0001 L TNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED7
+U 1 1 60666BAF
+P 5400 2900
+F 0 "LED7" H 5750 2850 50  0000 L CNN
+F 1 "WS2812B" H 5750 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 5450 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5500 2525 50  0001 L TNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED8
+U 1 1 6066A1D1
+P 6450 2900
+F 0 "LED8" H 6800 2850 50  0000 L CNN
+F 1 "WS2812B" H 6800 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 6500 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6550 2525 50  0001 L TNN
+	1    6450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED9
+U 1 1 6066A1DB
+P 7450 2900
+F 0 "LED9" H 7800 2850 50  0000 L CNN
+F 1 "WS2812B" H 7800 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 7500 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7550 2525 50  0001 L TNN
+	1    7450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED10
+U 1 1 6066A1E5
+P 8500 2900
+F 0 "LED10" H 8850 2850 50  0000 L CNN
+F 1 "WS2812B" H 8850 2750 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 8550 2600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8600 2525 50  0001 L TNN
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED11
+U 1 1 606722C2
+P 2300 3800
+F 0 "LED11" H 2650 3750 50  0000 L CNN
+F 1 "WS2812B" H 2650 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 2350 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 3425 50  0001 L TNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED12
+U 1 1 606722CC
+P 3350 3800
+F 0 "LED12" H 3700 3750 50  0000 L CNN
+F 1 "WS2812B" H 3700 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 3400 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 3425 50  0001 L TNN
+	1    3350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED13
+U 1 1 606722D6
+P 4350 3800
+F 0 "LED13" H 4700 3750 50  0000 L CNN
+F 1 "WS2812B" H 4700 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 4400 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4450 3425 50  0001 L TNN
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED14
+U 1 1 606722E0
+P 5400 3800
+F 0 "LED14" H 5750 3750 50  0000 L CNN
+F 1 "WS2812B" H 5750 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 5450 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5500 3425 50  0001 L TNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED15
+U 1 1 606722EA
+P 6450 3800
+F 0 "LED15" H 6800 3750 50  0000 L CNN
+F 1 "WS2812B" H 6800 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 6500 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6550 3425 50  0001 L TNN
+	1    6450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED16
+U 1 1 606722F4
+P 7450 3800
+F 0 "LED16" H 7800 3750 50  0000 L CNN
+F 1 "WS2812B" H 7800 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 7500 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7550 3425 50  0001 L TNN
+	1    7450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B LED17
+U 1 1 606722FE
+P 8500 3800
+F 0 "LED17" H 8850 3750 50  0000 L CNN
+F 1 "WS2812B" H 8850 3650 50  0000 L CNN
+F 2 "arisutea:LED_WS2812B" H 8550 3500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8600 3425 50  0001 L TNN
+	1    8500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60682526
+P 3950 5300
+F 0 "C10" H 4042 5346 50  0000 L CNN
+F 1 "0.1uF" H 4042 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3950 5300 50  0001 C CNN
+F 3 "~" H 3950 5300 50  0001 C CNN
+	1    3950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 6068291E
+P 4450 5300
+F 0 "C12" H 4542 5346 50  0000 L CNN
+F 1 "0.1uF" H 4542 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4450 5300 50  0001 C CNN
+F 3 "~" H 4450 5300 50  0001 C CNN
+	1    4450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 60682C3D
+P 4950 5300
+F 0 "C14" H 5042 5346 50  0000 L CNN
+F 1 "0.1uF" H 5042 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 5300 50  0001 C CNN
+F 3 "~" H 4950 5300 50  0001 C CNN
+	1    4950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 60683129
+P 5450 5300
+F 0 "C16" H 5542 5346 50  0000 L CNN
+F 1 "0.1uF" H 5542 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5450 5300 50  0001 C CNN
+F 3 "~" H 5450 5300 50  0001 C CNN
+	1    5450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 60683527
+P 5950 5300
+F 0 "C18" H 6042 5346 50  0000 L CNN
+F 1 "0.1uF" H 6042 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5950 5300 50  0001 C CNN
+F 3 "~" H 5950 5300 50  0001 C CNN
+	1    5950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 60683531
+P 6450 5300
+F 0 "C20" H 6542 5346 50  0000 L CNN
+F 1 "0.1uF" H 6542 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6450 5300 50  0001 C CNN
+F 3 "~" H 6450 5300 50  0001 C CNN
+	1    6450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 6068353B
+P 6950 5300
+F 0 "C22" H 7042 5346 50  0000 L CNN
+F 1 "0.1uF" H 7042 5255 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6950 5300 50  0001 C CNN
+F 3 "~" H 6950 5300 50  0001 C CNN
+	1    6950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 60685774
+P 3950 5750
+F 0 "C11" H 4042 5796 50  0000 L CNN
+F 1 "0.1uF" H 4042 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3950 5750 50  0001 C CNN
+F 3 "~" H 3950 5750 50  0001 C CNN
+	1    3950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 6068577E
+P 4450 5750
+F 0 "C13" H 4542 5796 50  0000 L CNN
+F 1 "0.1uF" H 4542 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4450 5750 50  0001 C CNN
+F 3 "~" H 4450 5750 50  0001 C CNN
+	1    4450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 60685788
+P 4950 5750
+F 0 "C15" H 5042 5796 50  0000 L CNN
+F 1 "0.1uF" H 5042 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 5750 50  0001 C CNN
+F 3 "~" H 4950 5750 50  0001 C CNN
+	1    4950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 60685792
+P 5450 5750
+F 0 "C17" H 5542 5796 50  0000 L CNN
+F 1 "0.1uF" H 5542 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5450 5750 50  0001 C CNN
+F 3 "~" H 5450 5750 50  0001 C CNN
+	1    5450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 6068579C
+P 5950 5750
+F 0 "C19" H 6042 5796 50  0000 L CNN
+F 1 "0.1uF" H 6042 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5950 5750 50  0001 C CNN
+F 3 "~" H 5950 5750 50  0001 C CNN
+	1    5950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 606857A6
+P 6450 5750
+F 0 "C21" H 6542 5796 50  0000 L CNN
+F 1 "0.1uF" H 6542 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6450 5750 50  0001 C CNN
+F 3 "~" H 6450 5750 50  0001 C CNN
+	1    6450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 606857B0
+P 6950 5750
+F 0 "C23" H 7042 5796 50  0000 L CNN
+F 1 "0.1uF" H 7042 5705 50  0000 L CNN
+F 2 "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6950 5750 50  0001 C CNN
+F 3 "~" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 60688DE7
+P 3400 5100
+F 0 "#PWR04" H 3400 4950 50  0001 C CNN
+F 1 "+5V" H 3415 5273 50  0000 C CNN
+F 2 "" H 3400 5100 50  0001 C CNN
+F 3 "" H 3400 5100 50  0001 C CNN
+	1    3400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 60689584
+P 9300 2500
+F 0 "#PWR06" H 9300 2350 50  0001 C CNN
+F 1 "+5V" H 9315 2673 50  0000 C CNN
+F 2 "" H 9300 2500 50  0001 C CNN
+F 3 "" H 9300 2500 50  0001 C CNN
+	1    9300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:GND #PWR02
+U 1 1 6068A3BE
+P 1700 3300
+F 0 "#PWR02" H 1700 3050 50  0001 C CNN
+F 1 "GND" H 1705 3127 50  0000 C CNN
+F 2 "" H 1700 3300 50  0000 C CNN
+F 3 "" H 1700 3300 50  0000 C CNN
+	1    1700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:GND #PWR05
+U 1 1 6068B6A4
+P 7650 5950
+F 0 "#PWR05" H 7650 5700 50  0001 C CNN
+F 1 "GND" H 7655 5777 50  0000 C CNN
+F 2 "" H 7650 5950 50  0000 C CNN
+F 3 "" H 7650 5950 50  0000 C CNN
+	1    7650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:GND #PWR03
+U 1 1 6068C01C
+P 1700 4200
+F 0 "#PWR03" H 1700 3950 50  0001 C CNN
+F 1 "GND" H 1705 4027 50  0000 C CNN
+F 2 "" H 1700 4200 50  0000 C CNN
+F 3 "" H 1700 4200 50  0000 C CNN
+	1    1700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 6068C79B
+P 9300 3400
+F 0 "#PWR07" H 9300 3250 50  0001 C CNN
+F 1 "+5V" H 9315 3573 50  0000 C CNN
+F 2 "" H 9300 3400 50  0001 C CNN
+F 3 "" H 9300 3400 50  0001 C CNN
+	1    9300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5100 3400 5200
+Wire Wire Line
+	3400 5200 3650 5200
+Connection ~ 3950 5200
+Wire Wire Line
+	3950 5200 4450 5200
+Connection ~ 4450 5200
+Wire Wire Line
+	4450 5200 4950 5200
+Connection ~ 4950 5200
+Wire Wire Line
+	4950 5200 5450 5200
+Connection ~ 5450 5200
+Wire Wire Line
+	5450 5200 5950 5200
+Connection ~ 5950 5200
+Wire Wire Line
+	5950 5200 6450 5200
+Connection ~ 6450 5200
+Wire Wire Line
+	6450 5200 6950 5200
+Wire Wire Line
+	3650 5200 3650 5650
+Wire Wire Line
+	3650 5650 3950 5650
+Connection ~ 3650 5200
+Wire Wire Line
+	3650 5200 3950 5200
+Connection ~ 3950 5650
+Wire Wire Line
+	3950 5650 4450 5650
+Connection ~ 4450 5650
+Wire Wire Line
+	4450 5650 4950 5650
+Connection ~ 4950 5650
+Wire Wire Line
+	4950 5650 5450 5650
+Connection ~ 5450 5650
+Wire Wire Line
+	5450 5650 5950 5650
+Connection ~ 5950 5650
+Wire Wire Line
+	5950 5650 6450 5650
+Connection ~ 6450 5650
+Wire Wire Line
+	6450 5650 6950 5650
+Wire Wire Line
+	7650 5850 7650 5400
+Wire Wire Line
+	7650 5400 6950 5400
+Connection ~ 4450 5400
+Wire Wire Line
+	4450 5400 3950 5400
+Connection ~ 4950 5400
+Wire Wire Line
+	4950 5400 4450 5400
+Connection ~ 5450 5400
+Wire Wire Line
+	5450 5400 4950 5400
+Connection ~ 5950 5400
+Wire Wire Line
+	5950 5400 5450 5400
+Connection ~ 6450 5400
+Wire Wire Line
+	6450 5400 5950 5400
+Connection ~ 6950 5400
+Wire Wire Line
+	6950 5400 6450 5400
+Wire Wire Line
+	3950 5850 4450 5850
+Connection ~ 7650 5850
+Connection ~ 4450 5850
+Wire Wire Line
+	4450 5850 4950 5850
+Connection ~ 4950 5850
+Wire Wire Line
+	4950 5850 5450 5850
+Connection ~ 5450 5850
+Wire Wire Line
+	5450 5850 5950 5850
+Connection ~ 5950 5850
+Wire Wire Line
+	5950 5850 6450 5850
+Connection ~ 6450 5850
+Wire Wire Line
+	6450 5850 6950 5850
+Connection ~ 6950 5850
+Wire Wire Line
+	6950 5850 7650 5850
+Wire Wire Line
+	7650 5850 7650 5950
+Wire Wire Line
+	2300 2600 3350 2600
+Wire Wire Line
+	9300 2600 9300 2500
+Connection ~ 3350 2600
+Wire Wire Line
+	3350 2600 4350 2600
+Connection ~ 4350 2600
+Wire Wire Line
+	4350 2600 5400 2600
+Connection ~ 5400 2600
+Wire Wire Line
+	5400 2600 6450 2600
+Connection ~ 6450 2600
+Wire Wire Line
+	6450 2600 7450 2600
+Connection ~ 7450 2600
+Wire Wire Line
+	7450 2600 8500 2600
+Connection ~ 8500 2600
+Wire Wire Line
+	8500 2600 9300 2600
+Wire Wire Line
+	2300 3500 3350 3500
+Wire Wire Line
+	9300 3500 9300 3400
+Connection ~ 3350 3500
+Wire Wire Line
+	3350 3500 4350 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	4350 3500 5400 3500
+Connection ~ 5400 3500
+Wire Wire Line
+	5400 3500 6450 3500
+Connection ~ 6450 3500
+Wire Wire Line
+	6450 3500 7450 3500
+Connection ~ 7450 3500
+Wire Wire Line
+	7450 3500 8500 3500
+Connection ~ 8500 3500
+Wire Wire Line
+	8500 3500 9300 3500
+Wire Wire Line
+	8500 3200 7450 3200
+Wire Wire Line
+	1700 3200 1700 3300
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 1700 3200
+Connection ~ 3350 3200
+Wire Wire Line
+	3350 3200 2300 3200
+Connection ~ 4350 3200
+Wire Wire Line
+	4350 3200 3350 3200
+Connection ~ 5400 3200
+Wire Wire Line
+	5400 3200 4350 3200
+Connection ~ 6450 3200
+Wire Wire Line
+	6450 3200 5400 3200
+Connection ~ 7450 3200
+Wire Wire Line
+	7450 3200 6450 3200
+Wire Wire Line
+	8500 4100 7450 4100
+Wire Wire Line
+	1700 4100 1700 4200
+Connection ~ 2300 4100
+Wire Wire Line
+	2300 4100 1700 4100
+Connection ~ 3350 4100
+Wire Wire Line
+	3350 4100 2300 4100
+Connection ~ 4350 4100
+Wire Wire Line
+	4350 4100 3350 4100
+Connection ~ 5400 4100
+Wire Wire Line
+	5400 4100 4350 4100
+Connection ~ 6450 4100
+Wire Wire Line
+	6450 4100 5400 4100
+Connection ~ 7450 4100
+Wire Wire Line
+	7450 4100 6450 4100
+Text GLabel 1250 2900 0    50   Input ~ 0
+RGB
+$Comp
+L Device:R_Small R10
+U 1 1 6069BB3B
+P 1650 2900
+F 0 "R10" V 1454 2900 50  0000 C CNN
+F 1 "720" V 1545 2900 50  0000 C CNN
+F 2 "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1650 2900 50  0001 C CNN
+F 3 "~" H 1650 2900 50  0001 C CNN
+	1    1650 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 2900 3050 2900
+Wire Wire Line
+	3650 2900 4050 2900
+Wire Wire Line
+	4650 2900 5100 2900
+Wire Wire Line
+	5700 2900 6150 2900
+Wire Wire Line
+	6750 2900 7150 2900
+Wire Wire Line
+	7750 2900 8200 2900
+Wire Wire Line
+	8800 2900 9200 2900
+Wire Wire Line
+	9200 2900 9200 3350
+Wire Wire Line
+	9200 3350 1850 3350
+Wire Wire Line
+	1850 3350 1850 3800
+Wire Wire Line
+	1850 3800 2000 3800
+Wire Wire Line
+	2600 3800 3050 3800
+Wire Wire Line
+	3650 3800 4050 3800
+Wire Wire Line
+	4650 3800 5100 3800
+Wire Wire Line
+	5700 3800 6150 3800
+Wire Wire Line
+	6750 3800 7150 3800
+Wire Wire Line
+	7750 3800 8200 3800
+Wire Wire Line
+	1250 2900 1550 2900
+Wire Wire Line
+	1750 2900 2000 2900
+NoConn ~ 8800 3800
+$EndSCHEMATC

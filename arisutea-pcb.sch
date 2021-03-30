@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Arisutea Keyboard"
 Date "2021-03-27"
 Rev "0.6"
@@ -1333,111 +1333,8 @@ F 3 "" H 9050 6450 50  0001 C CNN
 	1    9050 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J16
-U 1 1 605F9602
-P 7600 900
-F 0 "J16" H 7680 942 50  0000 L CNN
-F 1 "RGB" H 7680 851 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 900 50  0001 C CNN
-F 3 "~" H 7600 900 50  0001 C CNN
-	1    7600 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 900  0    50   Input ~ 0
+Text GLabel 6900 1450 0    50   Input ~ 0
 RGB
-$Comp
-L power:+5V #PWR0124
-U 1 1 605FC221
-P 7200 800
-F 0 "#PWR0124" H 7200 650 50  0001 C CNN
-F 1 "+5V" H 7215 973 50  0000 C CNN
-F 2 "" H 7200 800 50  0001 C CNN
-F 3 "" H 7200 800 50  0001 C CNN
-	1    7200 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 605FDE52
-P 7200 1000
-F 0 "#PWR0125" H 7200 750 50  0001 C CNN
-F 1 "GND" H 7205 827 50  0000 C CNN
-F 2 "" H 7200 1000 50  0001 C CNN
-F 3 "" H 7200 1000 50  0001 C CNN
-	1    7200 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 800  7400 800 
-Wire Wire Line
-	7200 1000 7400 1000
-$Comp
-L Connector_Generic:Conn_01x03 J17
-U 1 1 60611535
-P 7600 1400
-F 0 "J17" H 7680 1442 50  0000 L CNN
-F 1 "RGB_IN" H 7680 1351 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 1400 50  0001 C CNN
-F 3 "~" H 7600 1400 50  0001 C CNN
-	1    7600 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 1400 0    50   Input ~ 0
-RGB_A
-$Comp
-L power:GND #PWR0127
-U 1 1 6061154A
-P 7200 1500
-F 0 "#PWR0127" H 7200 1250 50  0001 C CNN
-F 1 "GND" H 7205 1327 50  0000 C CNN
-F 2 "" H 7200 1500 50  0001 C CNN
-F 3 "" H 7200 1500 50  0001 C CNN
-	1    7200 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 1300 7400 1300
-Wire Wire Line
-	7200 1500 7400 1500
-$Comp
-L Connector_Generic:Conn_01x03 J18
-U 1 1 6062103D
-P 7600 1950
-F 0 "J18" H 7680 1992 50  0000 L CNN
-F 1 "RGB_OUT" H 7680 1901 50  0000 L CNN
-F 2 "arisutea:PinHeader_1x03_P2.54mm_Vertical" H 7600 1950 50  0001 C CNN
-F 3 "~" H 7600 1950 50  0001 C CNN
-	1    7600 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 1950 0    50   Input ~ 0
-RGB_A
-$Comp
-L power:GND #PWR0129
-U 1 1 60621052
-P 7200 2050
-F 0 "#PWR0129" H 7200 1800 50  0001 C CNN
-F 1 "GND" H 7205 1877 50  0000 C CNN
-F 2 "" H 7200 2050 50  0001 C CNN
-F 3 "" H 7200 2050 50  0001 C CNN
-	1    7200 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 1850 7400 1850
-Wire Wire Line
-	7200 2050 7400 2050
-Text GLabel 7200 1300 0    50   Input ~ 0
-RGB_5V
-Text GLabel 7200 1850 0    50   Input ~ 0
-RGB_5V
-Wire Wire Line
-	7200 900  7400 900 
-Wire Wire Line
-	7200 1400 7400 1400
-Wire Wire Line
-	7200 1950 7400 1950
 Text GLabel 6400 6900 2    50   Input ~ 0
 RGB
 Text Label 5600 5450 0    50   ~ 0
@@ -1607,7 +1504,7 @@ U 1 1 6063AB78
 P 10100 6100
 F 0 "LOGO5" H 10100 6300 50  0000 C CNN
 F 1 "arisutea_logo" H 10175 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 10100 6450 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Dark" H 10100 6450 50  0001 C CNN
 F 3 "" H 10100 6450 50  0001 C CNN
 	1    10100 6100
 	1    0    0    -1  
@@ -1617,12 +1514,20 @@ L arisutea-pcb-r1:arisutea_logo LOGO6
 U 1 1 6063AEC9
 P 10450 6100
 F 0 "LOGO6" H 10450 6300 50  0000 C CNN
-F 1 "arisutea_logo" H 10525 6474 50  0001 C CNN
-F 2 "arisutea:arisutea_logo" H 10450 6450 50  0001 C CNN
+F 1 "QMK_LOGO" H 10525 6474 50  0001 C CNN
+F 2 "arisutea:QMK_Logo_Dark" H 10450 6450 50  0001 C CNN
 F 3 "" H 10450 6450 50  0001 C CNN
 	1    10450 6100
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6900 1050 1200 900 
+U 6063AA46
+F0 "Matrix: RGB" 50
+F1 "matrix-rgb.sch" 50
+$EndSheet
+Text HLabel 6900 1450 2    50   Input ~ 0
+RGB
 Wire Bus Line
 	6200 2700 6200 3150
 Wire Bus Line
