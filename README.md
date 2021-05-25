@@ -8,6 +8,8 @@
 
 Since the layout has been modified yet again I decided to give the project a new name, Arisutea, which translates to Alistair. Obviously keeping the theme running here. 
 
+Check out the iBOM [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mattyams/arisutea-pcb-rgb/master/hardware/BOM/arisutea-rgb-ibom.html)! This was generated with [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)!
+
 Key modifications to the PCB:
 
 - Added in Kailh Hotswap sockets.
