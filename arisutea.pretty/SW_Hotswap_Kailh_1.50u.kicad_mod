@@ -1,5 +1,5 @@
 (footprint "SW_Hotswap_Kailh_1.50u" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60ABE508)
+  (tedit 60CDFEDA)
   (descr "Kailh keyswitch Hotswap Socket, ")
   (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u")
   (attr smd)
@@ -49,7 +49,7 @@
   (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask) (tstamp e2628962-3d07-4d3e-a5ba-e1c5393f270d))
   (pad "1" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 0698f854-244e-4b8e-a9af-f0bbef41ad56))
   (pad "2" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ed03698c-d314-452a-96c1-0649c54add2b))
-  (model "${KEYSWITCH_LIB_3D}/Switch_Keyboard_Kailh.3dshapes/SW_Hotswap_Kailh.wrl"
+  (model "${KEEB6_PARTS_LIBRARY}/arisutea.pretty/3d/SW_Hotswap_Kailh.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
