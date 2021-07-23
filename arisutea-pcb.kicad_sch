@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 2ead0bd6-bdf0-4a84-ab56-0992ef5befa4)
 
@@ -86,7 +86,7 @@
           (number "12" (effects (font (size 0.9906 0.9906))))
         )
         (pin input inverted (at -25.4 -40.64 90) (length 2.54)
-          (name "~RESET~" (effects (font (size 0.9906 0.9906))))
+          (name "~{RESET}" (effects (font (size 0.9906 0.9906))))
           (number "13" (effects (font (size 0.9906 0.9906))))
         )
         (pin power_in line (at -19.05 -40.64 90) (length 2.54)
@@ -106,11 +106,11 @@
           (number "17" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 6.35 -40.64 90) (length 2.54)
-          (name "PD0/SCL/~INT0~" (effects (font (size 0.9906 0.9906))))
+          (name "PD0/SCL/~{INT0}" (effects (font (size 0.9906 0.9906))))
           (number "18" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 12.7 -40.64 90) (length 2.54)
-          (name "PD1/SDA/~INT1~" (effects (font (size 0.9906 0.9906))))
+          (name "PD1/SDA/~{INT1}" (effects (font (size 0.9906 0.9906))))
           (number "19" (effects (font (size 0.9906 0.9906))))
         )
         (pin power_in line (at -40.64 25.4 0) (length 2.54)
@@ -118,15 +118,15 @@
           (number "2" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 19.05 -40.64 90) (length 2.54)
-          (name "PD2/RDX1/~INT2~" (effects (font (size 0.9906 0.9906))))
+          (name "PD2/RDX1/~{INT2}" (effects (font (size 0.9906 0.9906))))
           (number "20" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 25.4 -40.64 90) (length 2.54)
-          (name "PD3/TXD1/~INT3~" (effects (font (size 0.9906 0.9906))))
+          (name "PD3/TXD1/~{INT3}" (effects (font (size 0.9906 0.9906))))
           (number "21" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 31.75 -40.64 90) (length 2.54)
-          (name "PD5/~CTS~/XCK1" (effects (font (size 0.9906 0.9906))))
+          (name "PD5/~{CTS}/XCK1" (effects (font (size 0.9906 0.9906))))
           (number "22" (effects (font (size 0.9906 0.9906))))
         )
         (pin power_in line (at 40.64 -31.75 180) (length 2.54)
@@ -174,7 +174,7 @@
           (number "32" (effects (font (size 0.9906 0.9906))))
         )
         (pin bidirectional line (at 40.64 31.75 180) (length 2.54)
-          (name "~HWB~/PE2" (effects (font (size 0.9906 0.9906))))
+          (name "~{HWB}/PE2" (effects (font (size 0.9906 0.9906))))
           (number "33" (effects (font (size 0.9906 0.9906))))
         )
         (pin power_in line (at 31.75 40.64 270) (length 2.54)
@@ -3274,10 +3274,10 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006062f214)
     (property "Reference" "LOGO3" (id 0) (at 231.394 152.654 0))
-    (property "Value" "QMK Logo" (id 1) (at 233.299 148.7424 0)
+    (property "Value" "mattyams logo" (id 1) (at 233.299 148.7424 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" (id 2) (at 231.394 149.352 0)
+    (property "Footprint" "3x6_graphics:mattyams_logo" (id 2) (at 231.394 149.352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 231.394 149.352 0)
@@ -3289,10 +3289,10 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006062f624)
     (property "Reference" "LOGO4" (id 0) (at 240.284 152.654 0))
-    (property "Value" "QMK Logo" (id 1) (at 242.189 148.7424 0)
+    (property "Value" "mattyams logo" (id 1) (at 242.189 148.7424 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "arisutea:OSHW-Logo_11.4x12mm_SilkScreen" (id 2) (at 240.284 149.352 0)
+    (property "Footprint" "3x6_graphics:mattyams_logo" (id 2) (at 240.284 149.352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 240.284 149.352 0)
@@ -3579,11 +3579,35 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-00005c4ef302/" (page "2"))
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/" (page "3"))
+    (path "/00000000-0000-0000-0000-00005c4ef302" (page "2"))
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee" (page "3"))
   )
 
   (symbol_instances
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7ccc7167-1f65-49dc-a371-d4f790e5714f"
+      (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/d2612a31-98c8-4de3-9b83-06934c1516c8"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/38c75898-dbf8-47b3-911f-b3481bc1acca"
+      (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/765d1512-c003-4cdb-af80-b1bd30bb1f67"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/ce8b816d-6cd7-4114-a2cb-20da4b08bcd8"
+      (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4a2127fa-125d-4b8a-b756-f0ae25c0277a"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/d9a6a940-a483-4975-878d-a482cea34fd7"
+      (reference "#PWR07") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/14abd61c-6fe1-4ac6-a6c3-e0ce08f0c889"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060af4ee6"
       (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
     )
@@ -3704,101 +3728,68 @@
     (path "/00000000-0000-0000-0000-00005c4deec8"
       (reference "C9") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006032001a"
-      (reference "F1") (unit 1) (value "500mA") (footprint "arisutea:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/2002a8c9-0d6c-4a16-96ac-6b9e064efcde"
+      (reference "C10") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c583efc"
-      (reference "H1") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/cf3e1a28-fcf4-4f64-842b-b749cdee3e42"
+      (reference "C11") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c584371"
-      (reference "H2") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/47ad08cc-6ab0-41e7-af6f-215411a7d4e2"
+      (reference "C12") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c18d"
-      (reference "H3") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/15a3a9ae-6a1c-4f4d-b792-e6a045459e71"
+      (reference "C13") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c1e9"
-      (reference "H4") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a3dc94e2-bae8-41ce-905f-aced07521f06"
+      (reference "C14") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c249"
-      (reference "H5") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/1ba505cd-38dd-4adb-adef-d71484844058"
+      (reference "C15") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c2a7"
-      (reference "H6") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/51021dbc-c306-4e14-ace7-1d0a7a53add6"
+      (reference "C16") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c305"
-      (reference "H7") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4aaa68d0-f866-4265-bf2f-4e46f59bc0e7"
+      (reference "C17") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c59c367"
-      (reference "H8") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/24fedc94-e59e-4d74-8cdc-90d825ce7f3f"
+      (reference "C18") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006064c09b"
-      (reference "LED1") (unit 1) (value "NUM_LOCK") (footprint "arisutea:LED_IN-S124ARUW")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/25f4d5d8-38aa-4404-b5d7-4554085564b7"
+      (reference "C19") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006064bba2"
-      (reference "LED2") (unit 1) (value "CAPS_LOCK") (footprint "arisutea:LED_IN-S124ARUW")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/1550e7fe-b902-43c1-b06d-c28705b2524d"
+      (reference "C20") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006064aa9e"
-      (reference "LED3") (unit 1) (value "FN_LED") (footprint "arisutea:LED_IN-S124ARUW")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/f6a10e01-2f31-4719-8e42-cb7ef22b8bfe"
+      (reference "C21") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006042e29e"
-      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/baa643a7-b396-4d96-a07d-50006f45e61c"
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-0000605b7585"
-      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/0eeff939-e6fe-4f5f-b3af-7bf8ffca5c98"
+      (reference "C23") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006062f214"
-      (reference "LOGO3") (unit 1) (value "QMK Logo") (footprint "arisutea:OSHW-Logo_11.4x12mm_SilkScreen")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/ac0d45bc-a486-4cb4-9b55-9c81dcaf385f"
+      (reference "C24") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006062f624"
-      (reference "LOGO4") (unit 1) (value "QMK Logo") (footprint "arisutea:OSHW-Logo_11.4x12mm_SilkScreen")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a2452ad9-9d5f-4c46-8fea-26eee079983a"
+      (reference "C25") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006063ab78"
-      (reference "LOGO5") (unit 1) (value "QMK_Logo_Light") (footprint "arisutea:QMK_Logo_Light")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/28c25911-7341-44bf-a082-cf4ea776be45"
+      (reference "C26") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006063aec9"
-      (reference "LOGO6") (unit 1) (value "QMK_Logo_Light") (footprint "arisutea:QMK_Logo_Light")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a093d2e5-b0ac-4e41-9b0f-3bb0c6783907"
+      (reference "C27") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000060af4eea"
-      (reference "R1") (unit 1) (value "22") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7fb96cd5-8ced-43f5-be3e-fffd8d7a49e7"
+      (reference "C28") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000060af4ee9"
-      (reference "R2") (unit 1) (value "22") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/42ce49ef-51b1-4047-a031-a153e9d8b9d7"
+      (reference "C29") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00005c4cb1b6"
-      (reference "R3") (unit 1) (value "10K") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c4e7ad8"
-      (reference "R4") (unit 1) (value "10K") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060af4ee7"
-      (reference "R5") (unit 1) (value "5k1") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060af4ee8"
-      (reference "R6") (unit 1) (value "5k1") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006066b154"
-      (reference "R7") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060669f17"
-      (reference "R8") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00006066ad99"
-      (reference "R9") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c4ca743"
-      (reference "SWR1") (unit 1) (value "SW_Push") (footprint "arisutea:SW_SPST_TL3342")
-    )
-    (path "/00000000-0000-0000-0000-000060af4eed"
-      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "arisutea:SOT-23-6_Handsoldering")
-    )
-    (path "/00000000-0000-0000-0000-000060af4ef7"
-      (reference "U2") (unit 1) (value "ATMEGA32U4_QFN44") (footprint "arisutea:TQFP-44_10x10mm_P0.8mm")
-    )
-    (path "/00000000-0000-0000-0000-000060af4eec"
-      (reference "USB1") (unit 1) (value "USB_C_HRO-TYPE-C-31-M-12") (footprint "arisutea:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering")
-    )
-    (path "/00000000-0000-0000-0000-00005c4bfa85"
-      (reference "Y1") (unit 1) (value "16MHz_Crystal_GND24") (footprint "arisutea:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering")
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/66a939a7-7821-4dc7-8b68-0bb49d1b6b93"
+      (reference "C30") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c51fbf3"
       (reference "D1") (unit 1) (value "D") (footprint "arisutea:D_SOD-123")
@@ -3998,6 +3989,153 @@
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c66ecb3"
       (reference "D66") (unit 1) (value "D") (footprint "arisutea:D_SOD-123")
     )
+    (path "/00000000-0000-0000-0000-00006032001a"
+      (reference "F1") (unit 1) (value "500mA") (footprint "arisutea:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c583efc"
+      (reference "H1") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c584371"
+      (reference "H2") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c18d"
+      (reference "H3") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c1e9"
+      (reference "H4") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c249"
+      (reference "H5") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c2a7"
+      (reference "H6") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c305"
+      (reference "H7") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c367"
+      (reference "H8") (unit 1) (value "ThroughHole") (footprint "arisutea:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00006064c09b"
+      (reference "LED1") (unit 1) (value "NUM_LOCK") (footprint "arisutea:LED_IN-S124ARUW")
+    )
+    (path "/00000000-0000-0000-0000-00006064bba2"
+      (reference "LED2") (unit 1) (value "CAPS_LOCK") (footprint "arisutea:LED_IN-S124ARUW")
+    )
+    (path "/00000000-0000-0000-0000-00006064aa9e"
+      (reference "LED3") (unit 1) (value "FN_LED") (footprint "arisutea:LED_IN-S124ARUW")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/96a6eeb4-ee8f-43dd-9d20-ff53ff0cdef2"
+      (reference "LED4") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/98cc084a-e30b-4c9a-858d-fb7efe51f5df"
+      (reference "LED5") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/853f4682-dd19-4e8c-a8f9-0d0ccd30af03"
+      (reference "LED6") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/9baecf12-6840-497e-8db3-18fc30f1a30b"
+      (reference "LED7") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/b27fcda0-4d58-469d-a5ee-4028ba2e9b14"
+      (reference "LED8") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/dce97eb9-f1d2-4fe1-a750-4746a5bbe42d"
+      (reference "LED9") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/5f55c4f0-2560-4382-a585-861a240d73d1"
+      (reference "LED10") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/8faee7c9-9d48-4d83-becd-2b92f4b3763a"
+      (reference "LED11") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7c618f72-75ad-484c-828b-83054a8ec372"
+      (reference "LED12") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/09a54c77-9551-46fd-a3ea-e5f4c7a39766"
+      (reference "LED13") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/341eb594-caee-49f0-b3f1-623d5cd73e78"
+      (reference "LED14") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4886961c-c5f6-4b92-a3d5-52138db03d67"
+      (reference "LED15") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4634bf7c-727a-4cbb-beb7-27e25cb38770"
+      (reference "LED16") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/6021cdaf-22ff-4f22-aca1-2e06ea66909c"
+      (reference "LED17") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/8f7ba3ee-db42-49be-943c-329a73708d53"
+      (reference "LED18") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a24c59ce-7493-4fd1-93ea-ce9cf0833499"
+      (reference "LED19") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7ee17766-ce6d-4d1e-922a-f9fd0b69e781"
+      (reference "LED20") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/cb254049-8c33-4bed-b330-2f25d0ef1a62"
+      (reference "LED21") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/1a4559fa-422b-481c-8e55-bf1c6fb8af51"
+      (reference "LED22") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/34011abe-0e1c-4783-b705-d02a25145c65"
+      (reference "LED23") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/3f329000-fe06-48a8-b51e-fbf6934bac44"
+      (reference "LED24") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
+    )
+    (path "/00000000-0000-0000-0000-00006042e29e"
+      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+    )
+    (path "/00000000-0000-0000-0000-0000605b7585"
+      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+    )
+    (path "/00000000-0000-0000-0000-00006062f214"
+      (reference "LOGO3") (unit 1) (value "mattyams logo") (footprint "3x6_graphics:mattyams_logo")
+    )
+    (path "/00000000-0000-0000-0000-00006062f624"
+      (reference "LOGO4") (unit 1) (value "mattyams logo") (footprint "3x6_graphics:mattyams_logo")
+    )
+    (path "/00000000-0000-0000-0000-00006063ab78"
+      (reference "LOGO5") (unit 1) (value "QMK_Logo_Light") (footprint "arisutea:QMK_Logo_Light")
+    )
+    (path "/00000000-0000-0000-0000-00006063aec9"
+      (reference "LOGO6") (unit 1) (value "QMK_Logo_Light") (footprint "arisutea:QMK_Logo_Light")
+    )
+    (path "/00000000-0000-0000-0000-000060af4eea"
+      (reference "R1") (unit 1) (value "22") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060af4ee9"
+      (reference "R2") (unit 1) (value "22") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c4cb1b6"
+      (reference "R3") (unit 1) (value "10K") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c4e7ad8"
+      (reference "R4") (unit 1) (value "10K") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060af4ee7"
+      (reference "R5") (unit 1) (value "5k1") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060af4ee8"
+      (reference "R6") (unit 1) (value "5k1") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006066b154"
+      (reference "R7") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060669f17"
+      (reference "R8") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006066ad99"
+      (reference "R9") (unit 1) (value "470") (footprint "arisutea:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/d41dd986-62bb-4c1d-8e57-eb599fa483e5"
+      (reference "R10") (unit 1) (value "720") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c51ee71"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "arisutea:SW_Hotswap_Kailh_1.00u")
     )
@@ -4196,122 +4334,20 @@
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c66ec9e"
       (reference "SW66") (unit 1) (value "SW_Push") (footprint "arisutea:SW_Hotswap_Kailh_1.00u")
     )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7ccc7167-1f65-49dc-a371-d4f790e5714f"
-      (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
+    (path "/00000000-0000-0000-0000-00005c4ca743"
+      (reference "SWR1") (unit 1) (value "SW_Push") (footprint "arisutea:SW_SPST_TL3342")
     )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/d2612a31-98c8-4de3-9b83-06934c1516c8"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000060af4eed"
+      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "arisutea:SOT-23-6_Handsoldering")
     )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/38c75898-dbf8-47b3-911f-b3481bc1acca"
-      (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
+    (path "/00000000-0000-0000-0000-000060af4ef7"
+      (reference "U2") (unit 1) (value "ATMEGA32U4_QFN44") (footprint "arisutea:TQFP-44_10x10mm_P0.8mm")
     )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/765d1512-c003-4cdb-af80-b1bd30bb1f67"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000060af4eec"
+      (reference "USB1") (unit 1) (value "USB_C_HRO-TYPE-C-31-M-12") (footprint "arisutea:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering")
     )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/ce8b816d-6cd7-4114-a2cb-20da4b08bcd8"
-      (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4a2127fa-125d-4b8a-b756-f0ae25c0277a"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/2002a8c9-0d6c-4a16-96ac-6b9e064efcde"
-      (reference "C10") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/cf3e1a28-fcf4-4f64-842b-b749cdee3e42"
-      (reference "C11") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/47ad08cc-6ab0-41e7-af6f-215411a7d4e2"
-      (reference "C12") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/15a3a9ae-6a1c-4f4d-b792-e6a045459e71"
-      (reference "C13") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a3dc94e2-bae8-41ce-905f-aced07521f06"
-      (reference "C14") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/1ba505cd-38dd-4adb-adef-d71484844058"
-      (reference "C15") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/51021dbc-c306-4e14-ace7-1d0a7a53add6"
-      (reference "C16") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4aaa68d0-f866-4265-bf2f-4e46f59bc0e7"
-      (reference "C17") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/24fedc94-e59e-4d74-8cdc-90d825ce7f3f"
-      (reference "C18") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/25f4d5d8-38aa-4404-b5d7-4554085564b7"
-      (reference "C19") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/1550e7fe-b902-43c1-b06d-c28705b2524d"
-      (reference "C20") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/f6a10e01-2f31-4719-8e42-cb7ef22b8bfe"
-      (reference "C21") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/baa643a7-b396-4d96-a07d-50006f45e61c"
-      (reference "C22") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/0eeff939-e6fe-4f5f-b3af-7bf8ffca5c98"
-      (reference "C23") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/ac0d45bc-a486-4cb4-9b55-9c81dcaf385f"
-      (reference "C24") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a2452ad9-9d5f-4c46-8fea-26eee079983a"
-      (reference "C25") (unit 1) (value "0.1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/96a6eeb4-ee8f-43dd-9d20-ff53ff0cdef2"
-      (reference "LED4") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/98cc084a-e30b-4c9a-858d-fb7efe51f5df"
-      (reference "LED5") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/853f4682-dd19-4e8c-a8f9-0d0ccd30af03"
-      (reference "LED6") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/9baecf12-6840-497e-8db3-18fc30f1a30b"
-      (reference "LED7") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/b27fcda0-4d58-469d-a5ee-4028ba2e9b14"
-      (reference "LED8") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/dce97eb9-f1d2-4fe1-a750-4746a5bbe42d"
-      (reference "LED9") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/5f55c4f0-2560-4382-a585-861a240d73d1"
-      (reference "LED10") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/8faee7c9-9d48-4d83-becd-2b92f4b3763a"
-      (reference "LED11") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/7c618f72-75ad-484c-828b-83054a8ec372"
-      (reference "LED12") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/09a54c77-9551-46fd-a3ea-e5f4c7a39766"
-      (reference "LED13") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/341eb594-caee-49f0-b3f1-623d5cd73e78"
-      (reference "LED14") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4886961c-c5f6-4b92-a3d5-52138db03d67"
-      (reference "LED15") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/4634bf7c-727a-4cbb-beb7-27e25cb38770"
-      (reference "LED16") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/6021cdaf-22ff-4f22-aca1-2e06ea66909c"
-      (reference "LED17") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/8f7ba3ee-db42-49be-943c-329a73708d53"
-      (reference "LED18") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/a24c59ce-7493-4fd1-93ea-ce9cf0833499"
-      (reference "LED19") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
-    )
-    (path "/903e254c-9aad-40b4-96c3-ed9f6985abee/d41dd986-62bb-4c1d-8e57-eb599fa483e5"
-      (reference "R10") (unit 1) (value "720") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    (path "/00000000-0000-0000-0000-00005c4bfa85"
+      (reference "Y1") (unit 1) (value "16MHz_Crystal_GND24") (footprint "arisutea:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering")
     )
   )
 )

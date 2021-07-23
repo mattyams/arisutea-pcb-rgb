@@ -21,7 +21,7 @@ Key modifications to the PCB:
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
-- Added 16 SK6812Mini-E underglow LEDs around the edge.
+- Added 20 SK6812Mini-E underglow LEDs around the edge.
 - Added LED indicators for CAPS and NUM lock as well as layer.
 - Updated JSON layout file for this particular keyboard.
 
