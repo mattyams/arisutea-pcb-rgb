@@ -3083,10 +3083,10 @@
   (symbol (lib_id "arisutea-pcb:Device_C_Small") (at 98.552 88.138 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005c4b33f7)
-    (property "Reference" "C4" (id 0) (at 95.3262 90.17 0)
+    (property "Reference" "C4" (id 0) (at 93.5482 87.122 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF (±10%)" (id 1) (at 100.9396 93.2434 90)
+    (property "Value" "1uF" (id 1) (at 93.0656 88.9254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 98.552 88.138 0)
@@ -3711,7 +3711,7 @@
       (reference "C3") (unit 1) (value "10uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005c4b33f7"
-      (reference "C4") (unit 1) (value "1uF (±10%)") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C4") (unit 1) (value "1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005c4d647d"
       (reference "C5") (unit 1) (value "1uF") (footprint "arisutea:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
