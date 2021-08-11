@@ -5,8 +5,8 @@
 - [X] Assemble Acrylic Case to v0.3 Arisutea RGB design (07-07-21)
 - [X] Edit QMK firmware for v0.3 Arisutea RGB design (07-07-21)
 - [X] v0.4 Arisutea RGB PCBs ordered (07-26-21)
-- [] Assemble v0.4 Arisutea RGB PCB once received
-- [] Assemble Acrylic Case to v0.4  Arisutea RGB design
+- [ ] Assemble v0.4 Arisutea RGB PCB once received
+- [ ] Assemble Acrylic Case to v0.4  Arisutea RGB design
 
 ## Arisutea RGB Underglow - Arisu Keyboard PCB with More Modifications...now with MORE!
 
