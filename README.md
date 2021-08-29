@@ -10,7 +10,7 @@
 
 ## Arisutea RGB Underglow - Arisu Keyboard PCB with More Modifications...now with MORE!
 
-### Disclaimer: Use these files at your own risk
+### Disclaimer: Use these files at your own risk!
 
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want, make some keys a little more permenant and add some underglow around the edges. If you notice any issue please open an issue and we can discuss!
 
