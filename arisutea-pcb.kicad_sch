@@ -6,8 +6,8 @@
 
   (title_block
     (title "Arisutea RGB Keyboard")
-    (date "2021-06-19")
-    (rev "0.3")
+    (date "2021-12-20")
+    (rev "0.4w")
     (company "mattyams")
   )
 
@@ -2937,7 +2937,7 @@
     (property "Value" "arisutea_logo" (id 1) (at 201.549 147.4724 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "arisutea:arisutea_logo" (id 2) (at 199.644 148.082 0)
+    (property "Footprint" "arisutea:arisutea_logo_copper" (id 2) (at 199.644 148.082 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 199.644 148.082 0)
@@ -2952,7 +2952,7 @@
     (property "Value" "arisutea_logo" (id 1) (at 210.439 147.4724 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "arisutea:arisutea_logo" (id 2) (at 208.534 148.082 0)
+    (property "Footprint" "arisutea:arisutea_logo_copper" (id 2) (at 208.534 148.082 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 208.534 148.082 0)
@@ -4226,10 +4226,10 @@
       (reference "LED24") (unit 1) (value "SK6812MINI-E") (footprint "arisutea:LED_SK6812MINI-E")
     )
     (path "/00000000-0000-0000-0000-00006042e29e"
-      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo_copper")
     )
     (path "/00000000-0000-0000-0000-0000605b7585"
-      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo")
+      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea:arisutea_logo_copper")
     )
     (path "/00000000-0000-0000-0000-00006062f214"
       (reference "LOGO3") (unit 1) (value "OSHW Logo") (footprint "arisutea:OSHW-Logo_11.4x12mm_SilkScreen")
