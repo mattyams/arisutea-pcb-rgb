@@ -33,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -63,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "ffcd1ff_ffffffff",
+    "visible_layers": "ffff3ff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
