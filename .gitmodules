@@ -4,3 +4,7 @@
 [submodule "hardware/arisutea-fr4-plates"]
 	path = hardware/arisutea-fr4-plates
 	url = https://github.com/mattyams/arisutea-fr4-plates
+[submodule "arisutea-fr4-plates"]
+	branch = WinKey
+[submodule "arisutea-case"]
+	branch = WinKey
